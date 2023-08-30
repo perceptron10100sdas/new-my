@@ -33,24 +33,25 @@ export default function Feed() {
      </div>
      
     </div>
-    <div className='bg-gradient-to-r from-pink-500 to-black flex justify-start'>
+    
+    <div className='bg-gradient-to-r from-pink-500 to-black flex justify-between'>
       <div>
+        <div className='flex justify-start'>
      <Image src="https://adminlte.io/wp-content/uploads/2022/02/tailwindcss-templates.png"
       width="500"
       height="600"
       className='ring-2 hover:ring-4 rounded-md'
      />
+     </div>
      
      <Link href="https://tailwindcss.com/" className='text-blue-500 bg-black text-3xl hover:overline'>Tailwind CSS</Link>
      <p className='text-black'>A utility-first CSS framework packed with classes</p>
      </div>
-     <div className='flex justify-end'> 
-     <img src="https://cdn.myportfolio.com/000909172f3cfec3f44bf971f9bfe486/c2a78af4-0920-48f1-9075-74d4e70bcd2f_car_202x158.png?h=2d924768f1f2722149817b3e25befe89"
-     width="400"
-     height="300"
-     />
+     <div> 
+     <h1 className='text-orange-500 text-3xl'>Many more upcoming..</h1>
      </div>
     </div>
+    
    
     </div>
     
