@@ -1,5 +1,5 @@
 
-import TradingViewWidget from '@/components/TradingViewWidget'
+
 import Image from 'next/image'
 import Footer from '@/components/Sidebar'
 import Feed from '@/components/Feed'
