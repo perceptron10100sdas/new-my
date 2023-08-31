@@ -8,7 +8,7 @@ export default function Feed() {
     <div className='text-5xl text-center  font-light'>
       <h1 className='text-white underline bg-gradient-to-r from-blue-950 via-black to-blue-950'>Available for projects...</h1>
       </div>
-<div className='bg-inherit flex justify-evenly'>
+<div className='bg-inherit  md:flex md:justify-evenly'>
   <div>
       <Image src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
       width={400}
@@ -32,7 +32,7 @@ export default function Feed() {
      
     </div>
     
-    <div className='bg-inherit flex justify-evenly'>
+    <div className='bg-inherit md:flex md:justify-evenly'>
       <div>
         <div className='flex justify-start'>
      <Image src="https://simbyone.com/content/images/2023/04/Tailwind_covertailwind_cover.png"
