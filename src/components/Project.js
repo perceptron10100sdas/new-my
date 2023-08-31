@@ -18,7 +18,7 @@ export default function project() {
       className='ring-2 hover:ring-red-500 rounded-md'
       />
       
-      <div className='flex justify-end'><Link href="https://github.com/perceptron10100sdas/starbucks" className='font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-1 px-1 rounded-lg mr-1'>Source Code for Google</Link></div>
+      <div className='flex justify-end'><Link href="https://github.com/perceptron10100sdas/starbucks" className='font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-black py-1 px-1 rounded-lg mr-1'>Source Code for Google</Link></div>
       <Link href="https://google-clone-lyart-gamma.vercel.app/" className='text-2xl text-blue-950 hover:text-yellow-600 font-semibold bg-yellow-500 hover:bg-blue-950 rounded-md hover:underline'>Google clone </Link>
       <p className='text-white'>A Google clone developed by me using nextjs13 and tailwind css and powered by google search API</p>
      
@@ -38,7 +38,7 @@ width={500}
 height={500}
 className='ring-2 hover:ring-green-950 rounded-none'/>
 
-<div className='flex justify-end'><Link href="https://github.com/perceptron10100sdas/starbucks" className='font-bold text-black bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 py-1 px-1 rounded-lg mr-1'>Source Code for Starbucks</Link></div>
+<div className='flex justify-end'><Link href="https://github.com/perceptron10100sdas/starbucks" className='font-bold text-black bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-black py-1 px-1 rounded-lg mr-1'>Source Code for Starbucks</Link></div>
 <Link href="https://astounding-kringle-914635.netlify.app/" className='text-2xl text-white bg-gradient-to-r from-green-950 to-black py-1 px-1 rounded-md font-bold'>Starbucks Clone</Link>
 <p className='text-white'>Starbucks clone made using React and inline css</p>
 
