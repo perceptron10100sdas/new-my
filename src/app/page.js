@@ -11,7 +11,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="bg-gradient-to-r from-blue-950 to bg-black">
-      <Alert>This website is in its premature phases Stay tuned for updates-Sambhav Das</Alert>
+      <Alert>This website is in it's premature phases Stay tuned for updates-Sambhav Das</Alert>
       <div className='flex justify-end' >
      
       <h1 className="font-bold text-white text-2xl">Hey this is Sambhav Das</h1>
