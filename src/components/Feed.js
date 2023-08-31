@@ -11,8 +11,8 @@ export default function Feed() {
 <div className='bg-inherit flex justify-evenly'>
   <div>
       <Image src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
-      width="400"
-      height="400"
+      width={400}
+      height={400}
       className='ring-2 hover:ring-4 rounded-md'
       
       />
@@ -22,8 +22,8 @@ export default function Feed() {
      </div>
      <div className='bg-inherit'>
       <img src='https://nextjs.org/static/blog/next-13/twitter-card.png'
-      width="400"
-      height="400"
+      width={400}
+      height={400}
       className='ring-2 hover:ring-4 rounded-md'
       />
       <Link href="https://nextjs.org/" className='text-white text-3xl font-semibold hover:underline'>NextJs</Link>
@@ -36,8 +36,8 @@ export default function Feed() {
       <div>
         <div className='flex justify-start'>
      <Image src="https://simbyone.com/content/images/2023/04/Tailwind_covertailwind_cover.png"
-      width="400"
-      height="400"
+      width={400}
+      height={400}
       className='ring-2 hover:ring-4 rounded-md'
      />
      </div>
