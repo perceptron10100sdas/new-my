@@ -24,8 +24,8 @@ export default function Feed() {
      </div>
      <div className='bg-inherit'>
       <img src='https://d2mk45aasx86xg.cloudfront.net/Top_Features_in_Next_js_13_7f9a32190f.webp'
-      width="500"
-      height="600"
+      width="400"
+      height="400"
       className='ring-2 hover:ring-4 rounded-md'
       />
       <Link href="https://nextjs.org/" className='text-white text-3xl font-semibold hover:underline'>NextJs</Link>
