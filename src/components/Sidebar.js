@@ -18,7 +18,8 @@ export default function Footer() {
       </a>
     <a href='https://twitter.com/imSambhavDas'> <Image src="https://im.rediff.com/news/2023/jul/24twitter.jpg?w=670&h=900"
       width="100"
-      height="100"/></a> 
+      height="100"
+      className='mt-3'/></a> 
    
     </div>
     
