@@ -6,20 +6,24 @@ import Feed from '@/components/Feed'
 import Project from '@/components/Project'
 import { Alert } from '@mui/material'
 import Link from 'next/link'
+import SpotifyPlaylist from '@/components/SpotifyPlaylist'
+
+
 
 
 export default function Home() {
   return (
     <main className="bg-gradient-to-r from-blue-950 to bg-black">
-      <Alert>This website is in it's premature phases Stay tuned for updates-Sambhav Das</Alert>
+      <Alert><SpotifyPlaylist/>click the play button for music.As Autoplay isn't supported by browsers</Alert>
       <div className='flex justify-end' >
      
       <h1 className="font-bold text-white text-2xl">Hey this is Sambhav Das</h1>
+      <div className='flex justify-between'>
      <Image src="https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg"
      className='ring-2 hover:ring-4 rounded-full'
      height="200"
      width="200"/>
-     
+     </div>
      
      </div>
      <div className='flex justify-between'>
