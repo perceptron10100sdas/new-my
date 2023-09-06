@@ -12,6 +12,15 @@ export default function project() {
       <div>
       <div className='bg-gradient-to-r   from-blue-950 to-black  flex-auto'>
         <div className='mt-4'>
+          <a href='https://twitter-ab17-hblh.vercel.app/'><Image src="https://media.licdn.com/dms/image/D4D2DAQHxA8m_psfGNg/profile-treasury-image-shrink_800_800/0/1694014875653?e=1694620800&v=beta&t=npkNTCykoQBT3zDrFQfDsfbqYjyv166Bhcs1o1-5bds"
+          width={500}
+          height={400}
+          className='ring-2 hover:ring-white rounded-md'
+          /></a>
+         <div className='mt-3'> <Link href="https://twitter-ab17-hblh.vercel.app/"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><div className='flex'><img src='https://thumbs.dreamstime.com/b/delhi-india-july-twitter-new-logo-white-background-vector-285096216.jpg' width={50} height={50}/><h1 className='text-white mt-2 text-2xl font-thin hover:underline' >Clone</h1></div></Link></div>
+         <p className='text-white font-normal'>X clone made using nextjs and firebase</p>
+        </div>
+        <div className='mt-4'>
       <a href="https://google-clone-lyart-gamma.vercel.app/"><Image src="https://media.licdn.com/dms/image/D4D22AQGB04FnzGwsRw/feedshare-shrink_800/0/1691300803405?e=1696464000&v=beta&t=zPMp8AG9mDGGPl3DE_Dn1vLHz31fBgRAzEE7n5_PPHU"
       width={500}
       height={500}
@@ -19,7 +28,7 @@ export default function project() {
       className='ring-2 hover:ring-red-500 rounded-md'
       />
       </a>
-      <div className='flex justify-end'><a href="https://github.com/perceptron10100sdas/starbucks" className='font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-black py-1 px-1 rounded-lg mr-1'><img src='https://w7.pngwing.com/pngs/240/158/png-transparent-social-media-computer-icons-github-fork-github-purple-text-social-media.png' width={50} height={50}/></a></div>
+      <div className='flex justify-end'><a href="https://github.com/perceptron10100sdas/google-clone" className='font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-black py-1 px-1 rounded-lg mr-1'><img src='https://w7.pngwing.com/pngs/240/158/png-transparent-social-media-computer-icons-github-fork-github-purple-text-social-media.png' width={50} height={50}/></a></div>
       <Link href="https://google-clone-lyart-gamma.vercel.app/" className='text-2xl bg-red-500 py-1 px-1 rounded-lg mr-1 hover:bg-blue-950 hover:underline'><div className='flex'><img src='https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw' width={100} height={30}/><h1 className='text-white mt-2 text-2xl font-thin' >Clone</h1></div></Link>
       <p className='text-white'>A Google clone developed by me using nextjs13 and tailwind css and powered by google search API</p>
       </div>
