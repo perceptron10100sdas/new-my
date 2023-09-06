@@ -11,9 +11,13 @@ import SpotifyPlaylist from '@/components/SpotifyPlaylist'
 
 
 
+
+
+
 export default function Home() {
   return (
     <main className="bg-gradient-to-r from-blue-950 to bg-black">
+      
       <Alert><SpotifyPlaylist/>click the play button for music.As Autoplay isn't supported by browsers</Alert>
       <div className='flex justify-end' >
      
