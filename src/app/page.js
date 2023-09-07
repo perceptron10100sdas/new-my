@@ -22,9 +22,9 @@ export default function Home() {
             <div className="flex flex-col items-center mt-24">
               
       
-      <Image src='https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg'
+     <Link href="/contact"><Image src='https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg'
        width="300"
-       height="100" className='ring-4 hover:ring-black rounded-full'/>
+       height="100" className='ring-4 hover:ring-black rounded-full'/></Link> 
        <div className='mt-6 items-center'>
 
         <h1 className='text-white text-4xl font-bold'>Sambhav Das</h1>
