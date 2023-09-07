@@ -47,7 +47,7 @@ export default function Feed() {
      
      </div>
      <div> 
-     <h1 className='text-orange-500 text-3xl'>Many more upcoming..</h1>
+     <h1 className='text-orange-500 text-3xl mt-3 font-sans'>Many more upcoming..</h1>
      </div>
     </div>
     
