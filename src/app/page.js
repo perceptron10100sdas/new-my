@@ -26,14 +26,21 @@ export default function Home() {
        width="300"
        height="100" className='ring-4 hover:ring-black rounded-full'/></Link> 
        <div className='mt-6 items-center'>
+       
+<h1 className='text-white text-4xl font-bold '>Sambhav Das</h1>
 
-        <h1 className='text-white text-4xl font-bold'>Sambhav Das</h1>
+        
         <div className='mt-3'>
-        <h2 className='text-white text-2xl  md:font-sans sm:font-serif '>NextJs Web Developer</h2></div>
-        <Link href="https://perceptron10100sdas.hashnode.dev/" className='text-white  text-2xl  md:font-sans sm:font-serif '>perceptron10100sdas@hashnode</Link>
+        <h2 className='text-white text-2xl  md:font-sans sm:font-serif  '>NextJs Web Developer</h2></div>
+        <Link href="https://perceptron10100sdas.hashnode.dev/" className='text-white  text-2xl  md:font-sans sm:font-serif  '>perceptron10100sdas@hashnode</Link>
        </div>
-       <div className='mt-7'><Link href="https://d3mxt5v3yxgcsr.cloudfront.net/certificates/TP-HFZ51N69.jpg" className='text-white font-semibold'>Certifications</Link></div>
+      
+       <div className='mt-7'><Link href="https://d3mxt5v3yxgcsr.cloudfront.net/certificates/TP-HFZ51N69.jpg" className='text-white font-semibold mb-4'>Certifications</Link></div>
+
+
+      
      </div>
     </main>
   )
-}
+  }
+  
