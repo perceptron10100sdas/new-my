@@ -17,8 +17,10 @@ import SpotifyPlaylist from '@/components/SpotifyPlaylist'
 export default function Home() {
   return (
     <main className="bg-gradient-to-r from-blue-950 to bg-black">
-      
+      <div className='flex'>
       <SpotifyPlaylist/>
+      <h1 className='text-white text-2xl animate-bounce'>Hi,I am</h1>
+      </div>
             <div className="flex flex-col items-center mt-24">
               
       
