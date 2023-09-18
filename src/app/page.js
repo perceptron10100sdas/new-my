@@ -33,7 +33,7 @@ export default function Home() {
       <h1 className='text-white text-4xl font-sans font-thin mx-5'>Welcome {userName} !</h1>
       </div>
             <div className="flex flex-col items-center mt-24">
-       <div className='ring-2 rounded-md hover:ring-4 mx-3 mb-3'>       
+       <div class="bg-[url('/demo.png')] ring-2 rounded-md hover:ring-4 mx-3 mb-3" className='ring-2 rounded-md hover:ring-4 mx-3 mb-3' >       
       
      <Link href="/contact"><Image src='https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg'
        width="300"

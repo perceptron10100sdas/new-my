@@ -10,7 +10,7 @@ export default function Footer() {
     <div className=' bg-black '>
          
         <div className='flex justify-evenly '>
-        <div className='bg-inherit hover:bg-blue-950 ring-1 mt-3 hover:ring-white '> <Link href="/skills"  
+        <div className='bg-inherit hover:bg-blue-950 ring-1 mt-3 hover:ring-white ' > <Link href="/skills"  
          
           className='text-blue-500 mx-5 my-6 flex items-start text-2xl rounded-lg font-semibold hover:text-white hover:animate-bounce hover:overline'
           
