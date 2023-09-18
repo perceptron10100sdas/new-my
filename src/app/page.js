@@ -34,11 +34,11 @@ export default function Home() {
       </div>
             <div className="flex flex-col items-center mt-24">
               <div className=''>
-       <div class="bg-[url('/demo.png')] ring-2 mb-3 mx-3"  >       
+       <div class="bg-[url('/demo.png')] ring-1  mb-3 mx-1"  >       
       
      <Link href="/contact"><Image src='https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg'
        width="300"
-       height="100" className='ring-4 hover:ring-black rounded-full mx-10 mt-3'/></Link> 
+       height="100" className='ring-4 hover:ring-black rounded-full mx-10 mt-5'/></Link> 
        <h2 className='text-white text-clip text-2xl mt-5 font-thin mx-24'>I am</h2>
        <div className='mt-6 items-center'>
        
@@ -47,7 +47,7 @@ export default function Home() {
         
         <div className='mt-3'>
         <h2 className='text-white text-2xl  md:font-sans sm:font-serif mx-4 '>NextJs Web Developer</h2></div>
-        <Link href="https://perceptron10100sdas.hashnode.dev/" className='text-white  text-2xl  md:font-sans sm:font-serif  mx-4 '>perceptron10100sdas@hashnode</Link>
+        <Link href="https://perceptron10100sdas.hashnode.dev/" className='text-white  text-2xl  md:font-sans sm:font-serif  mx-3 '>perceptron10100sdas@hashnode</Link>
        </div>
       <div className='mb-3'>
        <div className='mt-7'><Link href="https://d3mxt5v3yxgcsr.cloudfront.net/certificates/TP-HFZ51N69.jpg" className='text-white font-semibold mb-5 mx-20'>Certifications</Link></div>
