@@ -34,7 +34,7 @@ export default function Home() {
       </div>
             <div className="flex flex-col items-center mt-24">
               <div className=''>
-       <div class="bg-[url('/demo.png')] ring-1  mb-3 mx-1"  >       
+       <div class="bg-[url('/demo.png')] ring-1  mb-3 "  >       
       
      <Link href="/contact"><Image src='https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg'
        width="300"
