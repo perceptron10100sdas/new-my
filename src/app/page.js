@@ -24,7 +24,7 @@ export default function Home() {
   }, [])
   
   return (
-    <main className="bg-gradient-to-r from-blue-950 to bg-black">
+    <main className="bg-gradient-to-r from-blue-950 via-black to bg-black">
       <div className='flex'>
     
 
@@ -33,7 +33,8 @@ export default function Home() {
       <h1 className='text-white text-4xl font-sans font-thin mx-5'>Welcome {userName} !</h1>
       </div>
             <div className="flex flex-col items-center mt-24">
-       <div class="bg-[url('/demo.png')] ring-2 rounded-md hover:ring-4 mx-3 mb-3" className='ring-2 rounded-md hover:ring-4 mx-3 mb-3' >       
+              <div className=''>
+       <div class="bg-[url('/demo.png')] ring-2 mb-3 mx-3"  >       
       
      <Link href="/contact"><Image src='https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg'
        width="300"
@@ -52,7 +53,7 @@ export default function Home() {
        <div className='mt-7'><Link href="https://d3mxt5v3yxgcsr.cloudfront.net/certificates/TP-HFZ51N69.jpg" className='text-white font-semibold mb-5 mx-20'>Certifications</Link></div>
        </div>
        </div>
-      
+       </div>
      </div>
     </main>
   )
