@@ -10,7 +10,7 @@ export default function project() {
       </div>
       <div>
       <div className='bg-gradient-to-r mx-2  from-blue-950 to-black'>
-        <div className='mt-6   ring-2 hover:ring-4 rounded-md shadow-md shadow-white hover:shadow-xl  hover:shadow-white '>
+        <div className='mt-6   ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white '>
           <div className='flex justify-center'>
           <a href='https://twitter-ab17-hblh.vercel.app/'><Image src="/twitterclone.png"
           width={500}
@@ -20,7 +20,7 @@ export default function project() {
          <div className='mt-3 '> <Link href="https://twitter-ab17-hblh.vercel.app/"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><div className='flex'><img src='https://thumbs.dreamstime.com/b/delhi-india-july-twitter-new-logo-white-background-vector-285096216.jpg' width={50} height={50}/><h1 className='text-white mt-2 text-2xl font-thin hover:underline' >Clone</h1></div></Link></div>
          <p className='text-white font-normal'>X clone made using nextjs and firebase</p>
         </div>
-        <div className='mt-6 mx-2  ring-2 hover:ring-4 rounded-md shadow-md shadow-orange-500 hover:shadow-xl  hover:shadow-orange-500'>
+        <div className='mt-6 mx-2  ring-2 hover:ring-4 rounded-md shadow-lg shadow-orange-500 hover:shadow-xl  hover:shadow-orange-500'>
 <div className='flex justify-center'>
       <a href="https://google-clone-lyart-gamma.vercel.app/"><Image src="/googleclone.jpeg"
       width={500}
@@ -33,7 +33,7 @@ export default function project() {
       <Link href="https://google-clone-lyart-gamma.vercel.app/" className='text-2xl bg-red-500 py-1 px-1 rounded-lg mr-1 hover:bg-blue-950 hover:underline'><div className='flex'><img src='https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw' width={100} height={30}/><h1 className='text-white mt-2 text-2xl font-thin' >Clone</h1></div></Link>
       <p className='text-white'>A Google clone developed by me using nextjs13 and tailwind css and powered by google search API</p>
       </div>
-     <div className='mt-6 mx-2  ring-2 hover:ring-4 rounded-md  shadow-md shadow-yellow-500 hover:shadow-xl  hover:shadow-yellow-500'>
+     <div className='mt-6 mx-2  ring-2 hover:ring-4 rounded-md  shadow-lg shadow-yellow-500 hover:shadow-xl  hover:shadow-yellow-500'>
      <div className='flex justify-center'><a href="https://imdb-perceptron10100.vercel.app/" > <Image src="/imdbclone.png"
         width={500}
         height={500}
@@ -46,7 +46,7 @@ export default function project() {
         <Link href="https://imdb-perceptron10100.vercel.app/"  className="font-bold bg-amber-500 py-1 px-1 rounded-lg mr-1"><div className='flex'><img src='https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg' width={100} height={30}/><h1 className='text-white mt-2 text-3xl font-thin' >Clone</h1></div></Link>
         <p className='text-white'>Imdb clone made using nextjs 13 and tailwind css and data fetched by tmdb</p>
         </div>  
-    <div className='mt-6 mx-2 ring-2 hover:ring-4 rounded-md hover:bg-blue-950 shadow-md shadow-green-500 hover:shadow-xl  hover:shadow-green-500'>  
+    <div className='mt-6 mx-2 ring-2 hover:ring-4 rounded-md hover:bg-blue-950 shadow-lg shadow-green-500 hover:shadow-xl  hover:shadow-green-500'>  
     <div className='flex justify-center'>
 <a href='https://astounding-kringle-914635.netlify.app/'><Image src="/starbucksclone.png"
 
