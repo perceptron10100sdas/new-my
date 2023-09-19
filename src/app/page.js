@@ -30,7 +30,7 @@ export default function Home() {
 
 
       
-      <h1 className='text-white text-4xl font-sans font-thin mx-5'>Welcome {userName} !</h1>
+      <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 text-4xl font-sans font-thin mx-5'>Welcome {userName} !</h1>
       </div>
             <div className="flex flex-col items-center mt-24">
               <div className=''>

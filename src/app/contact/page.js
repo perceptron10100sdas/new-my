@@ -61,7 +61,7 @@ className='rounded-full ring-black '
 
       </div>
     <div className='flex justify-start mx-4 mt-3'>
-      <a href='https://github.com/perceptron10100sdas'> <div className=' bg-white rounded-md ring-2 hover:ring-4 mb-5'>
+      <a href='https://github.com/perceptron10100sdas'> <div className=' bg-white rounded-md ring-2 hover:ring-4 mb-5 shadow-lg '>
    <div className='flex justify-end mx-20 mt-2'> <Image src="https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg"
 width="90"
 height="90"
