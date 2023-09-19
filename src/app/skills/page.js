@@ -26,7 +26,7 @@ export default function skills() {
       <a  href="https://nextjs.org/"> <div className='flex justify-center mx-2 mt-2'><img src='https://nextjs.org/static/blog/next-13/twitter-card.png'
       width={400}
       height={400}
-      className='ring-2 hover:ring-4 rounded-md shadow-md shadow-blue-300 hover:shadow-xl  hover:shadow-blue-300 '
+      className='ring-2 hover:ring-4 rounded-md shadow-lg shadow-blue-300 hover:shadow-xl  hover:shadow-blue-300 '
       /></div></a>
       <Link href="https://nextjs.org/" className='text-white text-2xl font-semibold hover:underline mt-3 mx-2'>NextJs</Link>
       
