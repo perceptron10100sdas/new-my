@@ -13,7 +13,7 @@ export default function skills() {
     <a href="https://react.dev/" > <Image src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
       width={400}
       height={400}
-      className='w-400 h-400 ring-2 hover:ring-4 rounded-md shadow-md shadow-purple-500 hover:shadow-xl  hover:shadow-purple-500 '
+      className='w-400 h-400 ring-2 hover:ring-4 rounded-md shadow-lg shadow-purple-500 hover:shadow-xl  hover:shadow-purple-500 '
 
       
       
@@ -26,7 +26,7 @@ export default function skills() {
       <a  href="https://nextjs.org/"> <div className='flex justify-center mx-2 mt-2'><img src='https://nextjs.org/static/blog/next-13/twitter-card.png'
       width={400}
       height={400}
-      className='ring-2 hover:ring-4 rounded-md shadow-md shadow-blue-300 hover:shadow-xl  hover:shadow-blue-300 '
+      className='ring-2 hover:ring-4 rounded-md shadow-lg shadow-blue-300 hover:shadow-xl  hover:shadow-blue-300 '
       /></div></a>
       <Link href="https://nextjs.org/" className='text-white text-2xl font-semibold hover:underline mt-3 mx-2'>NextJs</Link>
       
@@ -40,7 +40,7 @@ export default function skills() {
     <a href="https://tailwindcss.com/"> <div className='flex justify-center mt-2 mx-2'><Image src="https://simbyone.com/content/images/2023/04/Tailwind_covertailwind_cover.png"
       width={400}
       height={400}
-      className='ring-2 hover:ring-4 rounded-md shadow-md shadow-sky-500 hover:shadow-xl  hover:shadow-sky-500'
+      className='ring-2 hover:ring-4 rounded-md shadow-lg shadow-sky-500 hover:shadow-xl  hover:shadow-sky-500'
      /></div></a>
      </div>
      
