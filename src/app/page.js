@@ -34,7 +34,7 @@ export default function Home() {
       </div>
             <div className="flex flex-col items-center mt-24">
               <div className=''>
-       <div class="bg-[url('/demo.png')]  ring-1 rounded-md shadow-xl shadow-sky-500  mb-3 "  >       
+       <div class="bg-[url('/demo.png')]  ring-1 rounded-md shadow-2xl shadow-sky-500 transition ease-out hover:translate-y-4  hover:scale-110 mb-3 "  >       
       
      <Link href="/contact"><Image src='https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg'
        width="300"
@@ -42,7 +42,7 @@ export default function Home() {
        <h2 className='text-white text-clip text-2xl mt-5 font-thin mx-24'>I am</h2>
        <div className='mt-6 items-center'>
        
-<h1 className='text-transparent text-4xl font-bold mx-20 bg-clip-text bg-gradient-to-r from-sky-500 to-purple-600  underline decoration-slate-200 shadow-xl shadow-indigo-500 transition ease-in-out delay-150 hover:-translate-y-1'>Sambhav Das</h1>
+<h1 className='text-transparent text-4xl font-bold mx-20 bg-clip-text bg-gradient-to-r from-sky-500 to-purple-600  underline decoration-slate-200 shadow-xl shadow-indigo-500 transition ease-in-out delay-150 hover:-translate-y-1 brightness-150'>Sambhav Das</h1>
 
         
         <div className='mt-3'>
