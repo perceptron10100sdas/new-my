@@ -42,7 +42,7 @@ export default function Home() {
        <h2 className='text-white text-clip text-2xl mt-5 font-thin mx-24'>I am</h2>
        <div className='mt-6 items-center'>
        
-<h1 className='text-transparent text-4xl font-bold mx-20 bg-clip-text bg-gradient-to-r from-sky-500 to-purple-600  underline decoration-slate-200 shadow-xl shadow-indigo-500'>Sambhav Das</h1>
+<h1 className='text-transparent text-4xl font-bold mx-20 bg-clip-text bg-gradient-to-r from-sky-500 to-purple-600  underline decoration-slate-200 shadow-xl shadow-indigo-500 transition ease-in-out delay-150 hover:-translate-y-1'>Sambhav Das</h1>
 
         
         <div className='mt-3'>
