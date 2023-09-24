@@ -10,7 +10,7 @@ export default function Footer() {
     <div className=' bg-black '>
          
         <div className='flex justify-evenly '>
-        <div className='bg-inherit shadow-md shadow-purple-500 hover:shadow-xl  hover:shadow-purple-600 ring-1 mt-3 hover:ring-white'> <Link href="/skills"  
+        <div className='bg-black transition ease-in-out hover:-translate-y-5 hover:scale-110 shadow-md shadow-purple-500 hover:shadow-xl  hover:shadow-purple-600 ring-1 mt-3 hover:ring-white'> <Link href="/skills"  
          
           className='text-blue-500 mx-5 my-6 flex items-start text-2xl rounded-lg font-semibold hover:text-white hover:animate-bounce hover:overline'
           
@@ -18,7 +18,7 @@ export default function Footer() {
           
           ><h1 className='hover:font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600 brightness-90  hover:brightness-200'>Skills</h1></Link></div>
           <div className='flex items-center'>
-          <div className='bg-inherit shadow-md shadow-orange-500 hover:shadow-xl  hover:shadow-orange-500 ring-1 mt-3 hover:ring-white '><Link href="/project"  className='text-blue-500 mx-4 my-6 flex items-start text-2xl rounded-lg font-semibold  hover:text-white hover:overline '><h1 className=' hover:font-extrabold  transition-ease-out hover:-translate-y-3  hover:scale-110 bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-blue-600 brightness-90  hover:brightness-200'>My Portfolio</h1></Link></div></div>
+          <div className='bg-black shadow-md shadow-orange-500 hover:shadow-xl  hover:shadow-orange-500 ring-1 mt-3 hover:ring-white transition ease-in-out hover:-translate-y-5 hover:scale-110 '><Link href="/project"  className='text-blue-500 mx-4 my-6 flex items-start text-2xl rounded-lg font-semibold  hover:text-white hover:overline '><h1 className=' hover:font-extrabold   bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-blue-600 brightness-90  hover:brightness-200'>My Portfolio</h1></Link></div></div>
     <div className='bg-inherit shadow-md shadow-yellow-500 hover:shadow-xl  hover:shadow-yellow-500 ring-1 mt-3 hover:ring-white '> <Link href="/contact"  className='text-blue-500 mx-4 my-6 flex items-start text-2xl font-semibold  hover:text-white hover:animate-bounce hover:overline'><h1 className='hover:font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-blue-600 brightness-90  hover:brightness-200'>Contact</h1></Link></div>
      </div>
      <h2 className='text-2xl text-center text-blue-950 mt3' >Click to navigate to different sections</h2>
