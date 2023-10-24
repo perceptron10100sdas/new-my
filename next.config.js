@@ -8,7 +8,7 @@ const nextConfig = {
     },
     images:
     {
-        domains:["e0.pxfuel.com","pbs.twimg.com","mariosfakiolas.com","miro.medium.com","adminlte.io","media.licdn.com","im.rediff.com","static.vecteezy.com", "simbyone.com","www.malwarebytes.com"],
+        domains:["e0.pxfuel.com","pbs.twimg.com","mariosfakiolas.com","miro.medium.com","adminlte.io","media.licdn.com","im.rediff.com","static.vecteezy.com", "simbyone.com","www.malwarebytes.com","webimages.mongodb.com"],
     },
 }
 

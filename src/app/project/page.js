@@ -10,8 +10,8 @@ export default function project() {
       </div>
       <div>
       <div className='bg-gradient-to-r mx-2  from-blue-950 to-black'>
-        <div className='mt-6   ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white '>
-          <div className='flex justify-center'>
+        <div className='mt-6   ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white mx-2'>
+          <div className='flex justify-center '>
           <a href='https://twitter-ab17-hblh.vercel.app/'><Image src="/twitterclone.png"
           width={500}
           height={400}
