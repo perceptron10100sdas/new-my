@@ -59,7 +59,7 @@ className='ring-2 hover:ring-green-950 rounded-none flex mt-4 hover:transition e
 <p className='text-white'>Starbucks clone made using React and inline css</p>
 </div>  
 
-<h1 className='text-2xl bg-inherit font-sans text-white mt-3'>More projects coming up including instagram,X etc...</h1>
+<h1 className='text-2xl bg-inherit font-sans text-white mt-3'>More projects coming up including instagram,auth etc...</h1>
       </div>
       
       </div>
