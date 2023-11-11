@@ -53,7 +53,7 @@ className='rounded-full ring-black '
    </div></a></div>
    
 <div className='mt-3 '>
-<a href='https://github.com/perceptron10100sdas'> <Image src="https://www.malwarebytes.com/blog/news/2023/03/easset_upload_file13810_262604_e.png"
+<a href='https://github.com/perceptron10100sdas'> <Image src="https://github.blog/wp-content/uploads/2023/01/1200x640.png?fit=1200%2C640"
       width="100"
       height="100"
       className='mt-3 mx-4'/></a>
@@ -62,10 +62,10 @@ className='rounded-full ring-black '
       </div>
     <div className='flex justify-start mx-4 mt-3'>
       <a href='https://github.com/perceptron10100sdas'> <div className=' bg-white rounded-md ring-2 hover:ring-4 mb-5 shadow-lg '>
-   <div className='flex justify-end mx-20 mt-2'> <Image src="https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg"
-width="90"
-height="90"
-className='rounded-full ring-black '
+   <div className='flex justify-end mx-20 mt-2 '> <Image src="https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg"
+width="100"
+height="100"
+className='rounded-full ring-white '
 
 /></div>
       <div>
