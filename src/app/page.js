@@ -24,7 +24,7 @@ export default function Home() {
   }, [])
   
   return (
-    <main className="bg-gradient-to-r from-blue-950 via-black to bg-black">
+    <main className="bg-gradient-to-tr from-black via-black to bg-purple-950">
       <div className='flex'>
     
 

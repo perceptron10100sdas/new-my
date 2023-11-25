@@ -10,7 +10,7 @@ export default function Footer() {
  
 
   return (
-    <div className=' bg-black '>
+    <div className='bg-gradient-to-b from-black via-blue-950 to-purple-700'>
          
         <div className='flex justify-evenly gap-3'>
         <div className='bg-black transition ease-in-out hover:-translate-y-5 hover:scale-110 shadow-md shadow-purple-500 hover:shadow-xl  hover:shadow-purple-600 ring-1 mt-3 hover:ring-white'> <Link href="/skills"  
@@ -24,7 +24,8 @@ export default function Footer() {
      </div>
      
      <Link href="/" className='text-white flex justify-center mt-10'>Return to Home page</Link>
-<h3 className='text-slate-500 overline mt-6'>copyrights@perceptron10100sdas</h3>
+     <div className='bg-gradient-to-r from-purple-700 via-orange-500 to-yellow-500'>
+<h3 className='text-slate-500 overline mt-6'>copyrights@perceptron10100sdas</h3></div>
     </div>
   )
 }
