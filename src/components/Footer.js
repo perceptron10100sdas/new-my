@@ -13,7 +13,7 @@ export default function Footer() {
     <div className='bg-gradient-to-b from-black via-blue-950 to-purple-700'>
          
         <div className='flex justify-evenly gap-3'>
-        <div className='bg-black transition ease-in-out hover:-translate-y-5 hover:scale-110 shadow-md shadow-purple-500 hover:shadow-xl  hover:shadow-purple-600 ring-1 mt-3 hover:ring-white'> <Link href="/skills"  
+        <div className='bg-black transition ease-in-out hover:-translate-y-5 hover:scale-110 shadow-md shadow-purple-500 hover:shadow-xl  hover:shadow-purple-600 ring-1 mt-3 hover:ring-white hover:visible'> <Link href="/skills"  
          
           className='text-blue-500 mx-5 my-6 flex items-start text-2xl rounded-lg font-semibold hover:text-white hover:animate-bounce hover:overline'
         
