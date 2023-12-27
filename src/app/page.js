@@ -41,11 +41,13 @@ export default function Home() {
     
 
 
-  <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-sky-500 to-white text-5xl font-sans font-thin mx-4'>Welcome {userName} !</h1>
- 
+  <motion.h1 initial={{ opacity: 0}} animate={{ opacity: 1}}
+  transition={{duration:6, ease:"easeInOut" }} className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-sky-500 to-white text-5xl font-sans font-thin mx-4'>Welcome {userName} !</motion.h1>
+  
       </div>
       
-            <div className="flex flex-col items-center mt-24">
+            <motion.div initial={{ opacity: 0}} animate={{ opacity: 1}}
+  transition={{duration:3, ease:"easeInOut" }}   className="flex flex-col items-center mt-24">
               <div className=''>
        <div class="bg-[url('/demo.png')] max-w-screen   ring-1 rounded-md shadow-2xl shadow-sky-500 transition ease-out hover:translate-y-4  hover:scale-110 mb-3 "  >       
        
@@ -73,7 +75,7 @@ export default function Home() {
        </div>
        </div>
       
-     </div> 
+     </motion.div> 
     </main></PageWrapper>
       )
   }
