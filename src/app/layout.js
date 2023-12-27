@@ -3,9 +3,12 @@
 import Footer from '@/components/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import YourComponent from './page-wrapper'
+
+
+
 
 const inter = Inter({ subsets: ['latin'] })
+
 
 export const metadata = {
   title: 'Sambhav Das portfolio',
@@ -18,13 +21,15 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         
         <div className='bg-gradient-to-r from-blue-950 to-black'>
-          <YourComponent>
-        {children}</YourComponent>
+        
+        {children}
+        <Footer/>
+       
         </div>
         
         </body>
 
-        <Footer/>
+       
     </html>
   )
 }

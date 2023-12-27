@@ -1,8 +1,12 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { PageWrapper } from '../page-wrapper'
+import { motion } from 'framer-motion'
 export default function skills() {
   return (
+    <PageWrapper>
     <div>
       <div className='text-5xl text-center  font-light'>
       <h1 className='text-white underline bg-gradient-to-r from-blue-950 via-black to-blue-950 hover:animate-ping'>Available for projects...</h1>
@@ -76,6 +80,6 @@ export default function skills() {
      <h1 className='text-orange-500 text-2xl mt-3 font-sans overline animate-pulse'>Many more upcoming..</h1>
      </div>
     </div>
-    </div>
+    </div></PageWrapper>
   )
 }

@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import { PageWrapper } from '../page-wrapper'
 
 export default function contact() {
   return (
+    <PageWrapper>
     <div>
     <div className='bg-gradient-to-r from-green-500 via-black to-red-500'>
 <h1 className='text-5xl text-center text-white  mb-5 animate-bounce'>Contact INfo</h1>
@@ -88,7 +90,7 @@ className='rounded-full ring-white '
    
    
    
-    </div>
+    </div></PageWrapper>
  
        
     

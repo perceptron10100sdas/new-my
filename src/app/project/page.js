@@ -1,9 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { PageWrapper } from '../page-wrapper'
 
 export default function project() {
   return (
+    <PageWrapper>
     <div>
        <div  className='bg-gradient-to-r from-orange-500 to-yellow-400 '>
       <h1 className=' text-3xl flex justify-end  '>#Projects made by me...</h1>
@@ -63,6 +65,6 @@ className='ring-2 hover:ring-green-950 rounded-none flex mt-4 hover:transition e
       </div>
       
       </div>
-    </div>
+    </div></PageWrapper>
   )
 }

@@ -1,14 +1,14 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import Footer from '@/components/Sidebar'
-import Feed from '@/components/Feed'
-import Project from '@/components/Project'
-import { Alert } from '@mui/material'
+
 import Link from 'next/link'
-import SpotifyPlaylist from '@/components/SpotifyPlaylist'
+
 import { useState,useEffect } from 'react'
 import dynamic from 'next/dynamic'
+import {motion} from "framer-motion"
+import { PageWrapper } from './page-wrapper'
+
 
 
 
@@ -24,7 +24,7 @@ import dynamic from 'next/dynamic'
 
 export default function Home() {
   const [userName, setUserName] = useState(null)
-  const YourComponent = dynamic(() => import('./page-wrapper'), { ssr: false })
+  
  
 
   useEffect(() => {
@@ -34,23 +34,24 @@ export default function Home() {
  
   
   return (
+    <PageWrapper>
     <main className="bg-gradient-to-tr from-black via-black to bg-purple-950">
-      <YourComponent>
+      
       <div className='flex'>
     
 
 
-      
-      <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-sky-500 to-white text-5xl font-sans font-thin mx-4'>Welcome {userName} !</h1>
-   
+  <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-sky-500 to-white text-5xl font-sans font-thin mx-4'>Welcome {userName} !</h1>
+ 
       </div>
+      
             <div className="flex flex-col items-center mt-24">
               <div className=''>
        <div class="bg-[url('/demo.png')] max-w-screen   ring-1 rounded-md shadow-2xl shadow-sky-500 transition ease-out hover:translate-y-4  hover:scale-110 mb-3 "  >       
        
-     <Link href="/contact"><div className='mt-3'><Image src='/iconimg.webp'
+     <div className='mt-3'><Image src='/iconimg.webp'
        width="300"
-       height="100" className='ring-4 hover:ring-black rounded-full mx-10 mt-5 '/></div></Link> 
+       height="100" className='ring-4 hover:ring-black rounded-full mx-10 mt-5 '/></div>
        <h2 className='text-white text-clip text-2xl mt-5 font-thin mx-24'>I am</h2>
        
        <div className='mt-6 items-center'>
@@ -72,8 +73,8 @@ export default function Home() {
        </div>
        </div>
       
-     </div></YourComponent>
-    </main>
-  )
+     </div> 
+    </main></PageWrapper>
+      )
   }
   
