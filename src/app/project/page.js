@@ -28,12 +28,12 @@ export default function project() {
         <motion.div initial={{ x: -100}} animate={{ x: 0}}
   transition={{duration:3, ease:"linear" }} className='mt-6 ring-white  ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white mx-2'>
           <div className='flex justify-center '>
-          <a href='https://twitter-ab17-hblh.vercel.app/'><Image src="/twitterclone.png"
+          <a href='https://blip-perceptron10100.vercel.app/'><Image src="/blip.png"
           width={500}
           height={400}
           className='ring-2 hover:ring-white rounded-md mt-4 hover:transition ease-out hover:-translate-y-6'
           /></a></div>
-         <div className='mt-3 '> <Link href="https://twitter-ab17-hblh.vercel.app/"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><div className='flex'><img src='https://thumbs.dreamstime.com/b/delhi-india-july-twitter-new-logo-white-background-vector-285096216.jpg' width={50} height={50}/><h1 className='text-white mt-2 text-2xl font-semibold hover:underline' >BLIP</h1></div></Link></div>
+         <div className='mt-3 '> <Link href="https://blip-perceptron10100.vercel.app/"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><div className='flex'><img src='https://thumbs.dreamstime.com/b/delhi-india-july-twitter-new-logo-white-background-vector-285096216.jpg' width={50} height={50}/><h1 className='text-white mt-2 text-2xl font-semibold hover:underline' >BLIP</h1></div></Link></div>
          <p className='text-white font-normal'>X clone made using nextjs and firebase</p>
         </motion.div>
         <motion.div initial={{ x: 100}} animate={{ x: 0}}
