@@ -14,19 +14,30 @@ export default function project() {
       </div>
       <div>
       <div className='bg-gradient-to-r mx-2  from-blue-950 to-black'>
+      <motion.div initial={{ y: -100}} animate={{ y: 0}}
+  transition={{duration:1.5, ease:"linear" }} className='mt-6  ring-pink-500 ring-2 hover:ring-4 rounded-md shadow-lg shadow-pink-500 hover:shadow-pink-500 hover:shadow-xl   mx-2'>
+          <div className='flex justify-center '>
+          <a href='https://blushhavenhomes.onrender.com'><Image src="/estate.png"
+          width={500}
+          height={400}
+          className='ring-2 hover:ring-white rounded-md mt-4 hover:transition ease-out hover:-translate-y-6'
+          /></a></div>
+         <div className='mt-3 '> <Link href="https://blushhavenhomes.onrender.com"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><div className='flex '><img src='/air.svg'  width={50} height={50}/><h1 className='bg-white mt-2 text-2xl font-thin text-pink-500 hover:underline rounded-md p-2' >blushhavenhomes</h1></div></Link></div>
+         <p className='text-white font-normal'>BlushHavenHomes is your go-to platform for seamlessly connecting sellers with buyers made using MERN</p>
+        </motion.div>
         <motion.div initial={{ x: -100}} animate={{ x: 0}}
-  transition={{duration:3, ease:"linear" }} className='mt-6   ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white mx-2'>
+  transition={{duration:3, ease:"linear" }} className='mt-6 ring-white  ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white mx-2'>
           <div className='flex justify-center '>
           <a href='https://twitter-ab17-hblh.vercel.app/'><Image src="/twitterclone.png"
           width={500}
           height={400}
           className='ring-2 hover:ring-white rounded-md mt-4 hover:transition ease-out hover:-translate-y-6'
           /></a></div>
-         <div className='mt-3 '> <Link href="https://twitter-ab17-hblh.vercel.app/"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><div className='flex'><img src='https://thumbs.dreamstime.com/b/delhi-india-july-twitter-new-logo-white-background-vector-285096216.jpg' width={50} height={50}/><h1 className='text-white mt-2 text-2xl font-thin hover:underline' >Clone</h1></div></Link></div>
+         <div className='mt-3 '> <Link href="https://twitter-ab17-hblh.vercel.app/"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><div className='flex'><img src='https://thumbs.dreamstime.com/b/delhi-india-july-twitter-new-logo-white-background-vector-285096216.jpg' width={50} height={50}/><h1 className='text-white mt-2 text-2xl font-semibold hover:underline' >BLIP</h1></div></Link></div>
          <p className='text-white font-normal'>X clone made using nextjs and firebase</p>
         </motion.div>
         <motion.div initial={{ x: 100}} animate={{ x: 0}}
-  transition={{duration:3, ease:"linear" }}  className='mt-6 mx-2  ring-2 hover:ring-4 rounded-md shadow-lg shadow-orange-500 hover:shadow-xl  hover:shadow-orange-500'>
+  transition={{duration:3.5, ease:"linear" }}  className='mt-6 mx-2 ring-red-500 ring-2 hover:ring-4 rounded-md shadow-lg shadow-orange-500 hover:shadow-xl  hover:shadow-orange-500'>
 <div className='flex justify-center'>
       <a href="https://google-clone-lyart-gamma.vercel.app/"><Image src="/googleclone.jpeg"
       width={500}
@@ -40,7 +51,7 @@ export default function project() {
       <p className='text-white'>A Google clone developed by me using nextjs13 and tailwind css and powered by google search API</p>
       </motion.div>
      <motion.div initial={{ x: -100}} animate={{ x: 0}}
-  transition={{duration:3, ease:"linear" }} className='mt-6 mx-2  ring-2 hover:ring-4 rounded-md  shadow-lg shadow-yellow-500 hover:shadow-xl  hover:shadow-yellow-500'>
+  transition={{duration:3.5, ease:"linear" }} className='mt-6 mx-2 ring-yellow-500  ring-2 hover:ring-4 rounded-md  shadow-lg shadow-yellow-500 hover:shadow-xl  hover:shadow-yellow-500'>
      <div className='flex justify-center'><a href="https://imdb-perceptron10100.vercel.app/" > <Image src="/imdbclone.png"
         width={500}
         height={500}
@@ -54,7 +65,7 @@ export default function project() {
         <p className='text-white'>Imdb clone made using nextjs 13 and tailwind css and data fetched by tmdb</p>
         </motion.div>  
     <motion.div initial={{ x: 100}} animate={{ x: 0}}
-  transition={{duration:3, ease:"linear" }} className='mt-6 mx-2 ring-2 hover:ring-4 rounded-md hover:bg-blue-950 shadow-lg shadow-green-500 hover:shadow-xl  hover:shadow-green-500'>  
+  transition={{duration:4.5, ease:"linear" }} className='mt-6 mx-2 ring-green-300 ring-2 hover:ring-4 rounded-md hover:bg-blue-950 shadow-lg shadow-green-500 hover:shadow-xl  hover:shadow-green-500'>  
     <div className='flex justify-center'>
 <a href='https://astounding-kringle-914635.netlify.app/'><Image src="/starbucksclone.png"
 
