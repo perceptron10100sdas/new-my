@@ -33,7 +33,8 @@ export default function Footer() {
   transition={{ type: "spring",repeat:Infinity, duration: 5 }} className='bg-black transition ease-in-out hover:-translate-y-5 hover:scale-110 shadow-md shadow-yellow-500 hover:shadow-xl  hover:shadow-yellow-500 ring-1 mt-3 hover:ring-white '> <Link href="/contact"  className='text-blue-500 mx-4 my-6 flex items-start text-2xl font-semibold  hover:text-white hover:animate-bounce hover:overline '><h1 className='hover:font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-blue-600 brightness-90  hover:brightness-200 '>Contact</h1></Link></motion.div>
      </div>
      
-     <Link href="/" className='text-white flex justify-center mt-10'>Return to Home page</Link>
+     <motion.div initial={{ scale:2}} animate={{ scale: 1}}
+  transition={{duration:2, ease:"easeInOut" }} ><Link href="/" className='text-white flex justify-center mt-10'><button className='ring-2 hover:ring-4 p-3  shadow-xl text-white bg-black'>Home</button></Link></motion.div>
 
      <div className='bg-gradient-to-r from-purple-700 via-orange-500 to-yellow-500'>
 <h3 className='text-slate-500 overline mt-6'>copyrights@perceptron10100sdas</h3></div>
