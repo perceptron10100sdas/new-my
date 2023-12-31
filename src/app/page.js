@@ -47,7 +47,7 @@ export default function Home() {
       </div>
       
             <motion.div initial={{ scale:2}} animate={{ scale: 1}}
-  transition={{duration:5, ease:"easeInOut" }}   className="flex flex-col items-center mt-24">
+  transition={{duration:6, ease:"easeInOut" }}   className="flex flex-col items-center mt-24">
               <div className=''>
        <div class="bg-[url('/demo.png')] max-w-screen   ring-1 rounded-md shadow-2xl shadow-sky-500 transition ease-out hover:translate-y-4  hover:scale-110 mb-3 "  >       
        
