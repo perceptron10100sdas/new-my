@@ -1,14 +1,23 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import { PageWrapper } from '../page-wrapper'
+import { motion } from "framer-motion-3d"
+
+
 
 export default function contact() {
+  const variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1 },
+  }
   return (
     <PageWrapper>
     <div>
     <div className='bg-gradient-to-r from-green-500 via-black to-red-500'>
 <h1 className='text-5xl text-center text-white  mb-5 animate-bounce'>Contact INfo</h1>
  </div>
+
 
  <div className='flex justify-between bg-gradient-to-r from-indigo-700 to-black'>
    <div className=''>
@@ -30,6 +39,7 @@ export default function contact() {
 
 
  </div>
+ 
  <div className='flex justify-end'>
  <a href='https://twitter.com/imSambhavDas'> <Image src="https://im.rediff.com/news/2023/jul/24twitter.jpg?w=670&h=900"
    width="100"
