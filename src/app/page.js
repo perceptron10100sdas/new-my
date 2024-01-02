@@ -22,7 +22,9 @@ import { PageWrapper } from './page-wrapper'
 
 
 
+
 export default function Home() {
+  {/* 
   const [userName, setUserName] = useState(null)
   
  
@@ -31,10 +33,11 @@ export default function Home() {
     const uc = window.prompt("please enter your name")
     setUserName(uc)
   }, [])
- 
+ */}
   
   return (
     <PageWrapper>
+     
     <main className="bg-gradient-to-tr from-black via-black to bg-purple-950">
       
       <div className='flex'>
@@ -42,7 +45,7 @@ export default function Home() {
 
 
   <motion.h1 initial={{ opacity: 0}} animate={{ opacity: .95}}
-  transition={{duration:3, ease:"easeInOut" }} className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-sky-500 to-white text-5xl font-sans font-thin mx-4'>Welcome {userName} !</motion.h1>
+  transition={{duration:3, ease:"easeInOut" }} className='bg-clip-text text-transparent bg-gradient-to-r from-pink-500 via-sky-500 to-white text-5xl font-sans font-thin mx-4'>Welcome !</motion.h1>
   
       </div>
       
