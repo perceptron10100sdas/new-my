@@ -50,7 +50,7 @@ export default function contact() {
    </div>
  <div className='flex justify-end mx-4 mt-3'>
    <a href='https://twitter.com/imSambhavDas'> <div className=' bg-black rounded-md ring-2 hover:ring-4 mb-5'>
-<div className='flex justify-end mx-20 mt-2'> <Image src="https://pbs.twimg.com/profile_images/1678817133051138048/j6WFI0kj_400x400.jpg"
+<div className='flex justify-end mx-20 mt-2'> <Image src="https://pbs.twimg.com/profile_images/1741095085331337216/KEDVVLm8_400x400.jpg"
 width="90"
 height="90"
 className='rounded-full ring-black '
