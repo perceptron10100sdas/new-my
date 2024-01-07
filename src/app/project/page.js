@@ -13,7 +13,7 @@ export default function project() {
       <h1 className=' text-3xl flex justify-end  '>#Projects made by me...</h1>
       </div>
       <div>
-      <div className='space-y-7 bg-gradient-to-tr from-black via-black to bg-purple-950'>
+      <div className=' bg-gradient-to-tr from-black via-black to bg-purple-950 gap-7'>
       <motion.div initial={{ y: -100}} animate={{ y: 0}}
   transition={{duration:1.5, ease:"linear" }} className='mt-6  ring-pink-500 ring-2 hover:ring-4 rounded-md shadow-lg shadow-pink-500 hover:shadow-pink-500 hover:shadow-xl   mx-2'>
           <div className='flex justify-center '>
