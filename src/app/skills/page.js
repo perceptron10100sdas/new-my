@@ -11,7 +11,7 @@ export default function skills() {
       <div className='text-5xl text-center  font-light'>
       <h1 className='text-white underline bg-gradient-to-r from-blue-950 via-black to-blue-950 hover:animate-ping'>Available for projects...</h1>
       </div>
-<div className='bg-inherit  md:flex md:justify-evenly'>
+<div className='bg-gradient-to-tr from-black via-black to bg-purple-950  md:flex md:justify-evenly'>
   
   <motion.div animate={{scale:[0,1]}} transition={{duration:3, ease:"easeInOut" }}    className='mt-5 mx-3'>
     <div className='flex justify-center '>
@@ -36,7 +36,7 @@ export default function skills() {
 
       <h2 className='text-2xl font-bold text-white'>NodeJS</h2>
      </motion.div>
-     <motion.div animate={{scale:[0,1]}} transition={{duration:4, ease:"easeInOut" }} className='bg-inherit mt-4 mx-2'>
+     <motion.div animate={{scale:[0,1]}} transition={{duration:4, ease:"easeInOut" }} className=' mt-4 mx-2'>
       <a  href="https://nextjs.org/"> <div className='flex justify-center mx-2 mt-2'><img src='https://nextjs.org/static/blog/next-13/twitter-card.png'
       width={400}
       height={400}

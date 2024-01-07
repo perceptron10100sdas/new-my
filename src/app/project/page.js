@@ -13,7 +13,7 @@ export default function project() {
       <h1 className=' text-3xl flex justify-end  '>#Projects made by me...</h1>
       </div>
       <div>
-      <div className='bg-gradient-to-r mx-2  from-blue-950 to-black'>
+      <div className='space-y-7 bg-gradient-to-tr from-black via-black to bg-purple-950'>
       <motion.div initial={{ y: -100}} animate={{ y: 0}}
   transition={{duration:1.5, ease:"linear" }} className='mt-6  ring-pink-500 ring-2 hover:ring-4 rounded-md shadow-lg shadow-pink-500 hover:shadow-pink-500 hover:shadow-xl   mx-2'>
           <div className='flex justify-center '>
@@ -78,7 +78,7 @@ className='ring-2 hover:ring-green-950 rounded-none flex mt-4 hover:transition e
 <p className='text-white'>Starbucks clone made using React and inline css</p>
 </motion.div>  
 
-<h1 className='text-2xl bg-inherit font-sans text-white mt-3'>More projects coming up including instagram,auth etc...</h1>
+<h1 className='text-2xl font-sans text-white mt-3'>More projects coming up including instagram,auth etc...</h1>
       </div>
       
       </div>

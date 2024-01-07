@@ -3,6 +3,7 @@
 import Footer from '@/components/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Example from '@/components/Drawoutline'
 
 
 
@@ -20,11 +21,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         
-        <div className='bg-gradient-to-r from-blue-950 to-black'>
+        <div className='bg-black'>
         
         {children}
         <Footer/>
-       
+       <Example/>
+       <h3 className='text-white bg-slate-900'>Copyrights@perceptron10100sdas</h3>
         </div>
         
         </body>
