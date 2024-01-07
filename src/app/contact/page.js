@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { PageWrapper } from '../page-wrapper'
 import { motion } from "framer-motion-3d"
+import Example from '@/components/barloader'
 
 
 
@@ -14,9 +15,9 @@ export default function contact() {
   return (
     <PageWrapper>
     <div>
-    <div className='bg-gradient-to-r from-green-500 via-black to-red-500'>
-<h1 className='text-5xl text-center text-white  mb-5 animate-bounce'>Contact INfo</h1>
- </div>
+   
+<Example/>
+ 
 
 
  <div className='flex justify-between bg-gradient-to-r from-indigo-700 to-black'>
