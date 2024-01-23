@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <div className='bg-black'>
         
         {children}
-        <Footer/>
+        
        <Example/>
        <h3 className='text-white bg-slate-900'>Copyrights@perceptron10100sdas</h3>
         </div>

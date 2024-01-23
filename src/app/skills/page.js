@@ -81,6 +81,20 @@ export default function skills() {
      <h1 className='text-orange-500 text-2xl mt-3 font-sans overline animate-pulse'>Many more upcoming..</h1>
      </div>
     </div>
-    </div></PageWrapper>
+    </div>
+    <motion.div
+    initial={{ opacity: 0}} animate={{ opacity: 1}}
+    transition={{duration:6, ease:"easeInOut" }}
+    className='bg-gradient-to-bl from-black via-black to-purple-700 min-h-[180px] mt-3'>
+    <div className='flex justify-evenly gap-3'>
+        <div className='bg-black  -translate-y-5 scale-120 shadow-xl shadow-purple-600 ring-1 mt-3 hover:ring-white brightness-125 animate-bounce'> <Link href="/skills"  
+         
+          className='text-blue-500 mx-5 my-6 flex items-start text-2xl rounded-lg font-semibold hover:text-white hover:animate-bounce hover:overline'
+        
+          ><h1 className='hover:font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-blue-600 brightness-200'>Skills</h1></Link></div>
+          <div className='flex items-center'>
+          <div className='bg-black shadow-md scale-50 shadow-orange-500 brightness-75 hover:shadow-xl  hover:shadow-orange-500 ring-1 mt-3 hover:ring-white transition ease-in-out hover:-translate-y-5 hover:scale-110 '><Link href="/project"  className='text-blue-500 mx-4 my-6 flex items-start text-2xl rounded-lg font-semibold  hover:text-white hover:overline  '><h1 className=' hover:font-extrabold   bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-blue-600 brightness-90  hover:brightness-200'>My Portfolio</h1></Link></div></div>
+    <div className='bg-black transition ease-in-out scale-50 brightness-75 hover:-translate-y-5 hover:scale-110 shadow-md shadow-yellow-500 hover:shadow-xl  hover:shadow-yellow-500 ring-1 mt-3 hover:ring-white '> <Link href="/contact"  className='text-blue-500 mx-4 my-6 flex items-start text-2xl font-semibold  hover:text-white hover:animate-bounce hover:overline '><h1 className='hover:font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-blue-600 brightness-90  hover:brightness-200 '>Contact</h1></Link></div>
+     </div></motion.div></PageWrapper>
   )
 }

@@ -8,6 +8,8 @@ import { useState,useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import {motion} from "framer-motion"
 import { PageWrapper } from './page-wrapper'
+import Footer from '@/components/Footer'
+
 
 
 
@@ -29,14 +31,19 @@ export default function Home() {
   
  
 
-  useEffect(() => {
-    const uc = window.prompt("please enter your name")
+  useEffect((e) => {
+  const uc = (window.prompt("please enter your name"))
     setUserName(uc)
+    
   }, [])
+   
  
   
   return (
     <PageWrapper>
+       
+          
+       
      
     <main className="bg-gradient-to-tr from-black via-black to bg-purple-950">
       
@@ -70,16 +77,19 @@ export default function Home() {
         <h2 className='text-white text-2xl  md:font-sans sm:font-serif mx-4 text-center'>Web developer</h2></div>
         <Link href="https://perceptron10100sdas.hashnode.dev/" className='text-white  text-xl  md:font-sans sm:font-serif mx-3 text-center'>perceptron10100sdas@hashnode</Link>
        </div>
+
       
       
       <div className='mb-3'>
        <div className='mt-7'><Link href="https://d3mxt5v3yxgcsr.cloudfront.net/certificates/TP-HFZ51N69.jpg" className='text-white font-semibold mb-5 mx-20'>Certifications</Link></div>
        </div>
        </div>
+       
        </div>
       
      </motion.div> 
-    </main></PageWrapper>
+     <Footer/>
+    </main> </PageWrapper>
       )
   }
   
