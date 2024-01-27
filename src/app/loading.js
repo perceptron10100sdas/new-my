@@ -4,7 +4,6 @@ const Example = () => {
       <CutoutTextLoader
         height="450px"
         background="white"
-        // NOTE: Using GIFs for the background looks super cool :)
         imgUrl="./pro.webp"
       />
     </div>

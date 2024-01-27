@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Example from '@/components/Drawoutline'
+import Sidebar from '@/components/Sidebar'
 
 
 
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
         <div className='bg-black'>
         
         {children}
-        
+        <Sidebar/>
        <Example/>
        <h3 className='text-white bg-slate-900'>Copyrights@perceptron10100sdas</h3>
         </div>

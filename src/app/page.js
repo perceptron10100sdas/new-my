@@ -9,6 +9,9 @@ import dynamic from 'next/dynamic'
 import {motion} from "framer-motion"
 import { PageWrapper } from './page-wrapper'
 import Footer from '@/components/Footer'
+import { HoverImageLinks } from '@/components/HoverLInks'
+import Sidebar from '@/components/Sidebar'
+
 
 
 
@@ -88,7 +91,9 @@ export default function Home() {
        </div>
       
      </motion.div> 
-     <Footer/>
+     
+     
+     
     </main> </PageWrapper>
       )
   }

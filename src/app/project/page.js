@@ -5,7 +5,12 @@ import Link from 'next/link'
 import { PageWrapper } from '../page-wrapper'
 import { motion } from 'framer-motion'
 
+
+
 export default function project() {
+  
+
+
   return (
     <PageWrapper>
     <div>
@@ -22,8 +27,18 @@ export default function project() {
           height={400}
           className='ring-2 hover:ring-white rounded-md mt-4 hover:transition ease-out hover:-translate-y-6'
           /></a></div>
-         <div className='mt-3 '> <Link href="https://blushhavenhomes.onrender.com"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><div className='flex '><img src='/air.svg'  width={50} height={50}/><h1 className='bg-white mt-2 text-2xl font-thin text-pink-500 hover:underline rounded-md p-2' >blushhavenhomes</h1></div></Link></div>
-         <p className='text-white font-normal'>BlushHavenHomes is your go-to platform for seamlessly connecting sellers with buyers made using MERN</p>
+          <Link href="https://blushhavenhomes.onrender.com"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'>
+       
+         <h1 className='text-center text-5xl text-pink-500 font-thin p-3 overline'>BlushHavenHomes</h1>
+         <div className='md:flex justify-center gap-3 '>
+         <h2 className=' text-pink-500 font-thin'>Tech Stack used-</h2>
+         <p className='text-white font-extralight'>Mongodb </p>
+         <p className='text-white font-extralight'>ExpressJS</p>
+         <p className='text-white font-extralight'>ReactJS</p>
+         <p className='text-white font-extralight'>NodeJS</p></div>
+
+         
+         </Link>
         </motion.div>
         <motion.div initial={{ x: -100}} animate={{ x: 0}}
   transition={{duration:3, ease:"linear" }} className='mt-6 ring-white  ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white mx-2'>
@@ -83,19 +98,6 @@ className='ring-2 hover:ring-green-950 rounded-none flex mt-4 hover:transition e
       
       </div>
     </div>
-    <motion.div
-    initial={{ opacity: 0}} animate={{ opacity: 1}}
-    transition={{duration:6, ease:"easeInOut" }}
-    className='bg-gradient-to-bl from-black via-black to-purple-700 min-h-[180px] mt-3'>
-    <div className='flex justify-evenly gap-3'>
-        <div className='bg-black   scale-50 shadow-md shadow-purple-600 ring-1 mt-3 hover:ring-white brightness-75  hover:-translate-y-5 hover:scale-110 hover:brightness-110 '> <Link href="/skills"  
-         
-          className='text-blue-500 mx-5 my-6 flex items-start text-2xl rounded-lg font-semibold hover:text-white hover:animate-bounce hover:overline'
-        
-          ><h1 className='hover:font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-600  to-blue-600 brightness-75'>Skills</h1></Link></div>
-          <div className='flex items-center'>
-          <div className='bg-black scale-120 -translate-y-5  shadow-orange-500 shadow-xl  hover:shadow-orange-500 ring-1 mt-3 hover:ring-white transition ease-in-out hover:-translate-y-5 hover:scale-110 animate-bounce'><Link href="/project"  className='text-blue-500 mx-4 my-6 flex items-start text-2xl rounded-lg font-semibold  hover:text-white hover:overline  '><h1 className=' hover:font-extrabold   bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-blue-600 brightness-90  hover:brightness-200'>My Portfolio</h1></Link></div></div>
-    <div className='bg-black transition ease-in-out  brightness-75 scale-50 hover:brightness-110 hover:-translate-y-5 hover:scale-110 shadow-md shadow-yellow-500 hover:shadow-xl  hover:shadow-yellow-500 ring-1 mt-3 hover:ring-white '> <Link href="/contact"  className='text-blue-500 mx-4 my-6 flex items-start text-2xl font-semibold  hover:text-white hover:animate-bounce hover:overline '><h1 className='hover:font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-yellow-600 to-blue-600 brightness-90  hover:brightness-200 '>Contact</h1></Link></div>
-     </div></motion.div></PageWrapper>
+  </PageWrapper>
   )
 }
