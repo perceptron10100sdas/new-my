@@ -11,6 +11,7 @@ import { PageWrapper } from './page-wrapper'
 import Footer from '@/components/Footer'
 import { HoverImageLinks } from '@/components/HoverLInks'
 import Sidebar from '@/components/Sidebar'
+import { ScreenFitText } from '@/components/cutout'
 
 
 
@@ -93,7 +94,7 @@ export default function Home() {
      </motion.div> 
      
      
-     
+
     </main> </PageWrapper>
       )
   }

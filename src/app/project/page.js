@@ -4,6 +4,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { PageWrapper } from '../page-wrapper'
 import { motion } from 'framer-motion'
+import Example, { Ex, Google } from '@/components/cutout'
+import { SiMongodb ,SiExpress, SiReact, SiNodedotjs, SiNextdotjs, SiFirebase} from "react-icons/si";
+
+
 
 
 
@@ -21,35 +25,49 @@ export default function project() {
       <div className=' bg-gradient-to-tr from-black via-black to bg-purple-950 gap-7'>
       <motion.div initial={{ y: -100}} animate={{ y: 0}}
   transition={{duration:1.5, ease:"linear" }} className='mt-6  ring-pink-500 ring-2 hover:ring-4 rounded-md shadow-lg shadow-pink-500 hover:shadow-pink-500 hover:shadow-xl   mx-2'>
-          <div className='flex justify-center '>
-          <a href='https://blushhavenhomes.onrender.com'><Image src="/estate.png"
-          width={500}
-          height={400}
-          className='ring-2 hover:ring-white rounded-md mt-4 hover:transition ease-out hover:-translate-y-6'
-          /></a></div>
+        
           <Link href="https://blushhavenhomes.onrender.com"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'>
        
-         <h1 className='text-center text-5xl text-pink-500 font-thin p-3 overline'>BlushHavenHomes</h1>
-         <div className='md:flex justify-center gap-3 '>
-         <h2 className=' text-pink-500 font-thin'>Tech Stack used-</h2>
-         <p className='text-white font-extralight'>Mongodb </p>
-         <p className='text-white font-extralight'>ExpressJS</p>
-         <p className='text-white font-extralight'>ReactJS</p>
-         <p className='text-white font-extralight'>NodeJS</p></div>
-
          
+         <Example/>
+        
          </Link>
+<div className=' bg-clip-content p-5  space-y-2 rounded-md shadow-pink-400 shadow-lg '>
+         <h1 className='text-pink-500 font-thin text-4xl overline text-center'>Tech stacks</h1>
+         <div className='flex justify-center gap-4  '>
+         <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
+          <SiMongodb className='text-pink-500 text-4xl'/></div>
+          <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
+          <SiExpress className='text-pink-500 text-4xl '/></div>
+          <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
+          <SiReact className='text-pink-500 text-4xl'/></div>
+          <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
+          <SiNodedotjs className='text-pink-500 text-4xl'/></div>
+         </div>
+         </div>
+         
+         
         </motion.div>
         <motion.div initial={{ x: -100}} animate={{ x: 0}}
   transition={{duration:3, ease:"linear" }} className='mt-6 ring-white  ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white mx-2'>
           <div className='flex justify-center '>
-          <a href='https://blip-perceptron10100.vercel.app/'><Image src="/blip.png"
-          width={500}
-          height={400}
-          className='ring-2 hover:ring-white rounded-md mt-4 hover:transition ease-out hover:-translate-y-6'
-          /></a></div>
-         <div className='mt-3 '> <Link href="https://blip-perceptron10100.vercel.app/"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><div className='flex'><img src='https://thumbs.dreamstime.com/b/delhi-india-july-twitter-new-logo-white-background-vector-285096216.jpg' width={50} height={50}/><h1 className='text-white mt-2 text-2xl font-semibold hover:underline' >BLIP</h1></div></Link></div>
-         <p className='text-white font-normal'>X clone made using nextjs and firebase</p>
+          <a href='https://blip-perceptron10100.vercel.app/'>
+          </a></div>
+         <div className='mt-3 '> <Link href="https://blip-perceptron10100.vercel.app/"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><Ex/></Link></div>
+         <div className=' bg-clip-content p-5  space-y-2 rounded-md shadow-sky-400 shadow-lg '>
+         <h1 className='text-sky-500 font-thin text-4xl overline text-center'>Tech stacks</h1>
+         <div className='flex justify-center gap-4  '>
+         <div className='bg-white rounded-md shadow-blue-500 shadow-xl p-3'>
+          <SiNextdotjs className='text-blue-950 text-4xl'/></div>
+          <div className='bg-white rounded-md shadow-blue-500 shadow-xl p-3'>
+          <SiFirebase className='text-blue-950 text-4xl '/></div>
+          <div className='bg-white rounded-md shadow-blue-500 shadow-xl p-3'>
+          <SiReact className='text-blue-950 text-4xl'/></div>
+          <div className='bg-white rounded-md shadow-blue-500 shadow-xl p-3'>
+          <SiNodedotjs className='text-blue-950 text-4xl'/></div>
+         </div>
+         </div>
+         
         </motion.div>
         <motion.div initial={{ x: 100}} animate={{ x: 0}}
   transition={{duration:3.5, ease:"linear" }}  className='mt-6 mx-2 ring-red-500 ring-2 hover:ring-4 rounded-md shadow-lg shadow-orange-500 hover:shadow-xl  hover:shadow-orange-500'>
@@ -64,6 +82,7 @@ export default function project() {
       <div className='flex justify-end'><a href="https://github.com/perceptron10100sdas/google-clone" className='font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-black py-1 px-1 rounded-lg mr-1'><img src='https://w7.pngwing.com/pngs/240/158/png-transparent-social-media-computer-icons-github-fork-github-purple-text-social-media.png' width={50} height={50}/></a></div>
       <Link href="https://google-clone-lyart-gamma.vercel.app/" className='text-2xl bg-red-500 py-1 px-1 rounded-lg mr-1 hover:bg-blue-950 hover:underline'><div className='flex'><img src='https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw' width={100} height={30}/><h1 className='text-white mt-2 text-2xl font-thin' >Clone</h1></div></Link>
       <p className='text-white'>A Google clone developed by me using nextjs13 and tailwind css and powered by google search API</p>
+      
       </motion.div>
      <motion.div initial={{ x: -100}} animate={{ x: 0}}
   transition={{duration:3.5, ease:"linear" }} className='mt-6 mx-2 ring-yellow-500  ring-2 hover:ring-4 rounded-md  shadow-lg shadow-yellow-500 hover:shadow-xl  hover:shadow-yellow-500'>
