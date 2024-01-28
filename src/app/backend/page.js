@@ -32,7 +32,7 @@ export default function page() {
        
        
   
-       <div className='flex justify-center gap-x-10'>  <SiExpress className='text-8xl text-slate-500'/><motion.h1 className=' text-8xl text-white font-light'  initial={{ x:-100}} animate={{ x: 0}}
+       <div className='flex justify-center gap-x-10'>  <SiExpress className='text-8xl text-slate-500'/><motion.h1 className='text-8xl text-white font-light'  initial={{ x:-100}} animate={{ x: 0}}
   transition={{duration:3.5, ease:"anticipate" }}>ExpressJs</motion.h1></div>
 
 <div className='flex justify-center gap-x-10'>  <SiFirebase className='text-8xl text-orange-500'/><motion.h1 className='text-8xl text-white font-light'  initial={{ x:-100}} animate={{ x: 0}}
