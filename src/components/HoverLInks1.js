@@ -10,7 +10,7 @@ export const HoverImageLinks1 = () => {
        
       <Link
           heading="Portfolio"
-          subheading="Our work speaks for itself"
+          subheading="My work speaks for itself"
           imgSrc="/footer.jpg"
           href="/project"
           colour="orange"

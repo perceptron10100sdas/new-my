@@ -12,6 +12,8 @@ import Footer from '@/components/Footer'
 import { HoverImageLinks } from '@/components/HoverLInks'
 import Sidebar from '@/components/Sidebar'
 import { ScreenFitText } from '@/components/cutout'
+import { Alert } from '@mui/material'
+
 
 
 
@@ -45,7 +47,7 @@ export default function Home() {
   
   return (
     <PageWrapper>
-       
+       <Alert>Website under redesign</Alert>
           
        
      
@@ -90,6 +92,7 @@ export default function Home() {
        </div>
        
        </div>
+      
       
      </motion.div> 
      

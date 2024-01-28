@@ -4,84 +4,85 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { PageWrapper } from '../page-wrapper'
 import { motion } from 'framer-motion'
+import Example from '@/components/menu'
+import { useState } from 'react'
+import { FrontSide } from 'three'
+import front from '@/components/Frontend'
+import Backend from '@/components/Backend'
+
+
+
 export default function skills() {
+  const TOGGLE_CLASSES="text-sm font-medium flex items-center gap-2 px-3 md:pl-3 md:pr-3.5 py-3 md:py-1.5 transition-colors relative z-10";
+ 
+  const [selected, setSelected] = useState("Frontend");
   return (
     <PageWrapper>
-    <div>
-      <div className='text-5xl text-center  font-light'>
-      <h1 className='text-white underline bg-gradient-to-r from-blue-950 via-black to-blue-950 hover:animate-ping'>Available for projects...</h1>
-      </div>
-<div className='bg-gradient-to-tr from-black via-black to bg-purple-950  md:flex md:justify-evenly'>
-  
-  <motion.div animate={{scale:[0,1]}} transition={{duration:3, ease:"easeInOut" }}    className='mt-5 mx-3'>
-    <div className='flex justify-center '>
-    <a href="https://react.dev/" > <Image src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
-      width={400}
-      height={400}
-      className='w-400 h-400 ring-2 hover:ring-4 rounded-md shadow-lg shadow-purple-500 hover:shadow-xl  hover:shadow-purple-500 '
+       <div>
+      <div
+            className={`grid h-[200px] place-content-center px-8 transition-colors ${
+              selected === "Frontend" ? "bg-black" : "bg-black"
+            }`}
+          >
+            <SliderToggle selected={selected} setSelected={setSelected} />
+          </div></div>
+        {(selected=="Frontend")?
+        (<front/>):(<Backend/>)}
+        
+          
+      
+          
+        
 
-      
-      
-      /></a> </div>
-     
-     <Link href="https://react.dev/" className='text-blue-500 text-2xl font-semibold hover:underline mt-3 mx-2  '>REACT</Link>
-    
-     </motion.div>
-     <motion.div initial={{y:-50}} animate={{y:0}} transition={{duration:3, ease:"easeInOut" }} className='mt-3 mx-2 mb-3'>
-     <a  href="https://nodejs.org/en"> <div className='flex justify-center mx-2 mt-2'><img src='https://images.ctfassets.net/aq13lwl6616q/7cS8gBoWulxkWNWEm0FspJ/c7eb42dd82e27279307f8b9fc9b136fa/nodejs_cover_photo_smaller_size.png'
-      width={400}
-      height={400}
-      className='ring-2 hover:ring-4 rounded-md shadow-lg shadow-blue-300 hover:shadow-xl  hover:shadow-blue-300 mt-4 '
-      /></div></a>
-
-      <h2 className='text-2xl font-bold text-white'>NodeJS</h2>
-     </motion.div>
-     <motion.div animate={{scale:[0,1]}} transition={{duration:4, ease:"easeInOut" }} className=' mt-4 mx-2'>
-      <a  href="https://nextjs.org/"> <div className='flex justify-center mx-2 mt-2'><img src='https://nextjs.org/static/blog/next-13/twitter-card.png'
-      width={400}
-      height={400}
-      className='ring-2 hover:ring-4 rounded-md shadow-lg shadow-blue-300 hover:shadow-xl  hover:shadow-blue-300 '
-      /></div></a>
-      <Link href="https://nextjs.org/" className='text-white text-2xl font-semibold hover:underline mt-3 mx-2'>NextJs</Link>
-      
-     </motion.div>
-     
-    </div>
-    
-    <div className='bg-inherit md:flex md:justify-evenly'>
-      <motion.div initial={{y:-50}} animate={{y:0}} transition={{duration:5, ease:"easeInOut" }} className='mt-4 sm:sticky'>
-        <div className='flex mx-2 '>
-    <a href="https://tailwindcss.com/"> <div className='flex justify-center mt-2 mx-2'><Image src="https://simbyone.com/content/images/2023/04/Tailwind_covertailwind_cover.png"
-      width={400}
-      height={400}
-      className='ring-2 hover:ring-4 rounded-md shadow-lg shadow-sky-500 hover:shadow-xl  hover:shadow-sky-500'
-     /></div></a>
-     </div>
-     
-     <Link href="https://tailwindcss.com/" className='text-white text-2xl hover:overline mt-3 mx-2'>Tailwind CSS</Link>
-     
-     </motion.div>
-    <motion.div animate={{scale:[0,1]}} transition={{duration:4, ease:"easeInOut" }} className='mt-3 mx-2 mb-3'>
-    <a href="https://www.mongodb.com/"> <div className='flex justify-center mt-2 mx-2'><Image src="https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png"
-      width={400}
-      height={400}
-      className='ring-2 hover:ring-4 rounded-md shadow-lg shadow-green-500 hover:shadow-xl  hover:shadow-green-500'
-     /></div></a>
-<h2 className='text-2xl text-green-500 mt-3 font-bold '>Mongo Db</h2>
-    </motion.div>
-    <motion.div initial={{y:-50}} animate={{y:0}} transition={{duration:6, ease:"easeInOut" }} className='mt-3 mx-2 mb-3'>
-    <a href="https://expressjs.com/"> <div className='flex justify-center mt-2 mx-2'><Image src="https://miro.medium.com/v2/resize:fit:805/1*t40l2rOzSEXZbvGWClW-Pw.png"
-      width={400}
-      height={400}
-      className='ring-2 hover:ring-4 rounded-md shadow-lg shadow-green-500 hover:shadow-xl  hover:shadow-green-500'
-     /></div></a>
-     <h2 className='text-white text-2xl mx-4 font-bold mt-3'>ExpressJs</h2>
-    </motion.div>
-     <div> 
-     <h1 className='text-orange-500 text-2xl mt-3 font-sans overline animate-pulse'>Many more upcoming..</h1>
-     </div>
-    </div>
-    </div>
     </PageWrapper>
   )
 }
+const SliderToggle = ({ selected, setSelected }) => {
+  return (
+  <div>
+    <motion.p className='font-thin text-4xl text-white mb-3  italic text-center overline' initial={{ y:-100}} animate={{ y: 0}}
+transition={{duration:3, ease:"linear" }}> {
+      selected === "Frontend" ? "I make websites look cooler just like this one": "I manage routes"
+    }</motion.p>  
+
+
+  <div className="relative flex w-fit items-center rounded-md">
+    <Link href="/frontend"><button
+      className={`text-sm font-medium flex items-center gap-2 px-3 md:pl-3 md:pr-3.5 py-3 md:py-1.5 transition-colors relative z-10 ${
+        selected === "Frontend" ? "text-white" : "text-slate-300"
+      }`}
+      onClick={() => {
+        setSelected("Frontend")
+        ;
+      }}
+    >
+      <span className="relative z-10 text-4xl font-thin">Frontend</span>
+    </button></Link>
+    <Link href="/backend"><button
+      className={`text-sm font-medium flex items-center gap-2 px-3 md:pl-3 md:pr-3.5 py-3 md:py-1.5 transition-colors relative z-10 ${
+        selected === "Backend" ? "text-white" : "text-purple-800"
+      }`}
+      onClick={() => {
+        setSelected("Backend");
+
+      }}
+    >
+     
+     
+      <span className="relative z-10 text-4xl font-thin">Backend</span>
+    </button></Link>
+    <div
+      className={`absolute inset-0 z-0 flex ${
+        selected === "Backend" ? "justify-end" : "justify-start"
+      }`}
+    >
+      <motion.span
+        layout
+        transition={{ type: "spring", damping: 15, stiffness: 250 }}
+        className="h-full w-1/2 rounded-full bg-gradient-to-r from-violet-600 to-indigo-600"
+      />
+    </div>
+    
+  </div> </div>
+
+)};

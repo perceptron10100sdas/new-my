@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 const Example = () => {
     return (
       <div>
@@ -8,7 +9,7 @@ const Example = () => {
           background="pink"
           // NOTE: Using GIFs for the background looks super cool :)
           imgUrl="/estate.png"
-          heading="BlushheavenHome"
+          heading="BlushhavenHome"
         />
          
       </div>
@@ -36,10 +37,42 @@ const Example = () => {
        
         <CutoutTextLoader
           height="450px"
-          background="red"
+          background="black"
           // NOTE: Using GIFs for the background looks super cool :)
           imgUrl="/googleclone.jpeg"
           heading="Google"
+          
+        />
+         
+      </div>
+    );
+  };
+  export const Starbucks = () => {
+    return (
+      <div>
+       
+        <CutoutTextLoader
+          height="450px"
+          background="black"
+          // NOTE: Using GIFs for the background looks super cool :)
+          imgUrl="/starbucksclone.png"
+          heading="Starbucks"
+          
+        />
+         
+      </div>
+    );
+  };
+  export const Imdb = () => {
+    return (
+      <div>
+       
+        <CutoutTextLoader
+          height="450px"
+          background="orange"
+          // NOTE: Using GIFs for the background looks super cool :)
+          imgUrl="/imdbclone.png"
+          heading="IMdb"
           
         />
          
@@ -67,9 +100,10 @@ const Example = () => {
         <div
           style={{ background }}
           className="absolute inset-0 animate-pulse z-10"
+         
         />
         <span
-          className="font-thin absolute inset-0 z-20 text-center bg-clip-text text-transparent pointer-events-none"
+          className="font-semibold absolute inset-0 z-20 text-center bg-clip-text text-transparent pointer-events-none"
           style={{
             backgroundImage: `url(${imgUrl})`,
             backgroundPosition: "center",

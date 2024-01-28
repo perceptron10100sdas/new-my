@@ -10,7 +10,7 @@ export const HoverImageLinks2 = () => {
        
       <Link
           heading="Connect"
-          subheading="Our work speaks for itself"
+          subheading="how to reach me:)"
           imgSrc="/footer.jpg"
           href="/contact"
           

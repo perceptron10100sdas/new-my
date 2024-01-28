@@ -2,13 +2,14 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-
+import Example from '@/components/menu'
 import { SiFramer, SiNextdotjs, SiReact, SiTailwindcss } from 'react-icons/si'
 import {motion} from "framer-motion"
-export default function front() {
+export default function page() {
+   
   return (
     <div>
-         
+         <Example/>
          <div className='grid gap-7'>
          <div className='flex justify-center gap-x-10'>  <SiReact className='text-8xl text-sky-500'/><motion.h1 className='text-8xl text-white font-light'  initial={{ x:-100}} animate={{ x: 0}}
   transition={{duration:3, ease:"anticipate" }}>React</motion.h1></div>
