@@ -5,6 +5,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Example from '@/components/Drawoutline'
 import Sidebar from '@/components/Sidebar'
+import ParticleRing from '@/components/particlering'
 
 
 
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         
         <div className='bg-black'>
-        
+       
         {children}
         <Sidebar/>
        <Example/>
