@@ -74,7 +74,7 @@ export default function Home() {
        height="100" className='ring-4 hover:ring-black rounded-full mx-10 mt-5 '/></motion.div>
       <h1 className='text-white font-thin'>This is</h1>
       <div>
-       <h1 className='text-transparent text-7xl bg-clip-text bg-gradient-to-r from-white to-sky-500  font-thin animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5  overline'> Sambhav Das</h1></div>
+       <h1 className='text-transparent text-6xl bg-clip-text bg-gradient-to-r from-white to-sky-500  font-thin animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5  overline'> Sambhav Das</h1></div>
        <p className='text-white font-extralight text-2xl'>MERN Nextjs Web developer</p>
        </div>
     </div>
