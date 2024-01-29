@@ -5,7 +5,8 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Example from '@/components/Drawoutline'
 import Sidebar from '@/components/Sidebar'
-import ParticleRing from '@/components/particlering'
+
+
 
 
 

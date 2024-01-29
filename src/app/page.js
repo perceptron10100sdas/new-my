@@ -18,8 +18,8 @@ import { Canvas } from '@react-three/fiber'
 import { extend } from '@react-three/fiber'
 import { OrbitControls, TransformControls } from 'three-stdlib'
 extend({ OrbitControls, TransformControls })
-import back from '@/components/particlering'
-import ReactDOM from 'react-dom'
+
+
 
 
 import { Html } from '@react-three/drei'
