@@ -28,17 +28,17 @@ export default function page() {
       
           <div className='grid justify-center gap-7'>
          
-         <div className='flex  gap-x-10'>  <SiNodedotjs className='text-7xl  text-green-500'/><motion.h1 className='text-7xl  text-white font-thin'  initial={{ x:-100}} animate={{ x: 0}}
+         <div className='flex  gap-x-10'>  <SiNodedotjs className='text-7xl md:text-8xl  text-green-500'/><motion.h1 className='text-7xl md:text-8xl text-white font-thin'  initial={{ x:-100}} animate={{ x: 0}}
   transition={{duration:3, ease:"anticipate" }}>NodeJS</motion.h1></div>
        
        
   
-       <div className='flex gap-x-10 '>  <SiExpress className='text-7xl  text-slate-500'/><motion.h1 className='text-7xl  text-white font-thin md:grid sm:hidden'  initial={{ x:-100}} animate={{ x: 0}}
+       <div className='flex gap-x-10 '>  <SiExpress className='text-7xl md:text-8xl  text-slate-500'/><motion.h1 className='text-7xl md:text-8xl text-white font-thin md:grid sm:hidden'  initial={{ x:-100}} animate={{ x: 0}}
   transition={{duration:3.5, ease:"anticipate" }}>ExpressJs</motion.h1></div>
 
-<div className='flex  gap-x-10'>  <SiFirebase className='text-7xl  text-orange-500'/><motion.h1 className='text-7xl  text-white font-thin'  initial={{ x:-100}} animate={{ x: 0}}
+<div className='flex  gap-x-10'>  <SiFirebase className='text-7xl md:text-8xl  text-orange-500'/><motion.h1 className='text-7xl md:text-8xl  text-white font-thin'  initial={{ x:-100}} animate={{ x: 0}}
   transition={{duration:4, ease:"anticipate" }}>Firebase<p className='text-white text-xl'>Database and Auth</p></motion.h1></div>
-    <div className='flex  gap-x-10'>  <SiMongodb className='text-7xl  text-green-500'/><motion.h1 className='text-7xl  text-white font-thin'  initial={{ x:-100}} animate={{ x: 0}}
+    <div className='flex  gap-x-10'>  <SiMongodb className='text-7xl md:text-8xl  text-green-500'/><motion.h1 className='text-7xl md:text-8xl  text-white font-thin'  initial={{ x:-100}} animate={{ x: 0}}
   transition={{duration:4.3, ease:"anticipate" }}><p className=''>Mongo</p>DB<p className='text-white text-xl'>Database</p></motion.h1></div>
     
     </div></div>
