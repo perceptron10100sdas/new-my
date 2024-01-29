@@ -9,7 +9,7 @@ const Example = () => {
           background="pink"
           // NOTE: Using GIFs for the background looks super cool :)
           imgUrl="/estate.png"
-          heading="BlushhavenHome"
+          heading="BlushhavenHom"
         />
          
       </div>

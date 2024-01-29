@@ -26,13 +26,13 @@ const Example = () => {
   const SliderToggle = ({ selected, setSelected }) => {
   return (
     <div>
-         <motion.p className='font-thin text-4xl text-white mb-3  italic text-center overline shadow-md ' initial={{ y:-100}} animate={{ y: 0}}
+         <motion.p className='font-thin text-4xl text-white mb-4  italic text-center overline shadow-md  ' initial={{ y:-100}} animate={{ y: 0}}
   transition={{duration:3, ease:"linear" }}> {
         selected === "Frontend" ? "I make websites look cooler": "I manage routes"
       }</motion.p> 
 
   
-    <div className="relative flex w-fit items-center rounded-md">
+    <div className=" relative flex w-fit items-center rounded-md mx-5">
       <Link href="/frontend"><button
         className={`${TOGGLE_CLASSES} ${
           selected === "Frontend" ? "text-white" : "text-slate-300"
@@ -46,7 +46,7 @@ const Example = () => {
       </button></Link>
       <Link href="/backend"><button
         className={`${TOGGLE_CLASSES} ${
-          selected === "Backend" ? "text-white" : "text-slate-800"
+          selected === "Backend" ? "text-white" : "text-sky-600"
         }`}
         onClick={() => {
           setSelected("Backend");
