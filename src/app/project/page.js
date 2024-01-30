@@ -26,7 +26,7 @@ export default function project() {
       <motion.div initial={{ y: -100}} animate={{ y: 0}}
   transition={{duration:1.5, ease:"linear" }} className='mt-6  ring-pink-500 ring-2 hover:ring-4 rounded-md shadow-lg shadow-pink-500 hover:shadow-pink-500 hover:shadow-xl   mx-2'>
         
-          <Link href="https://blushhavenhomes.onrender.com"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'>
+          <Link href="https://blushhavenhomes.onrender.com"  className='text-2xl bg-black  rounded-lg mr-1'>
        
          
          <Example/>
@@ -43,6 +43,8 @@ export default function project() {
           <SiReact className='text-pink-500 text-4xl'/></div>
           <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
           <SiNodedotjs className='text-pink-500 text-4xl'/></div>
+          <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
+          <SiFirebase className='text-pink-500 text-4xl'/></div>
          </div>
          </div>
          
@@ -50,10 +52,8 @@ export default function project() {
         </motion.div>
         <motion.div initial={{ x: -100}} animate={{ x: 0}}
   transition={{duration:3, ease:"linear" }} className='mt-6 ring-white  ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white mx-2'>
-          <div className='flex justify-center '>
-          <a href='https://blip-perceptron10100.vercel.app/'>
-          </a></div>
-         <div className='mt-3 '> <Link href="https://blip-perceptron10100.vercel.app/"  className='text-2xl bg-black py-1 px-1 rounded-lg mr-1'><Ex/></Link></div>
+          
+         <div className=''> <Link href="https://blip-perceptron10100.vercel.app/"  className='text-2xl bg-black  rounded-lg mr-1'><Ex/></Link></div>
          <div className=' bg-clip-content p-5  space-y-2 rounded-md shadow-sky-400 shadow-lg '>
          <div className='flex justify-center gap-4  '>
          <div className='bg-white rounded-md shadow-blue-500 shadow-xl p-3'>

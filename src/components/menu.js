@@ -26,7 +26,7 @@ const Example = () => {
   const SliderToggle = ({ selected, setSelected }) => {
   return (
     <div>
-         <motion.p className='font-thin text-4xl text-white mb-4  italic text-center overline shadow-md  ' initial={{ y:-100}} animate={{ y: 0}}
+         <motion.p className='font-thin text-4xl text-white mb-4  italic text-center overline shadow-md ' initial={{ y:-100}} animate={{ y: 0}}
   transition={{duration:3, ease:"linear" }}> {
         selected === "Frontend" ? "I make websites look cooler": "I manage routes"
       }</motion.p> 
