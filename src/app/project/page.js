@@ -77,6 +77,8 @@ export default function project() {
       
       <div className='flex justify-end'><a href="https://github.com/perceptron10100sdas/google-clone" className='font-bold text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-black py-1 px-1 rounded-lg mr-1'><img src='https://w7.pngwing.com/pngs/240/158/png-transparent-social-media-computer-icons-github-fork-github-purple-text-social-media.png' width={50} height={50}/></a></div>
       <div className='flex justify-center gap-4 p-5 '>
+      <div className='bg-yellow-500 rounded-md shadow-yellow-500 shadow-xl p-3'>
+          <SiNextdotjs className='text-white text-4xl'/></div>
          <div className='bg-orange-500 rounded-md shadow-red-500 shadow-xl p-3'>
           <SiTailwindcss className='text-white text-4xl'/></div>
           <div className='bg-green-500 rounded-md shadow-green-500 shadow-xl p-3'>
@@ -97,6 +99,8 @@ export default function project() {
         <div className='flex justify-end'><Link href="https://github.com/perceptron10100sdas/imdb" className='bg-orange-500 rounded-md shadow-black shadow-xl p-3 mt-2'><SiGithub className='text-black text-4xl' /></Link>
         </div>
         <div className='flex justify-center gap-4 p-5 '>
+        <div className='bg-orange-500 rounded-md shadow-black shadow-xl p-3'>
+          <SiNextdotjs className='text-black text-4xl'/></div>
          <div className='bg-orange-500 rounded-md shadow-black shadow-xl p-3'>
           <SiTailwindcss className='text-black text-4xl'/></div>
           <div className='bg-orange-500 rounded-md shadow-black shadow-xl p-3'>
