@@ -22,9 +22,9 @@ export default function project() {
       <h1 className=' text-3xl flex justify-end  '>#Projects made by me...</h1>
       </div>
       <div>
-      <div className=' bg-gradient-to-tr from-black via-black to bg-purple-950 gap-7'>
+      <div className=' bg-black gap-7'>
       <motion.div initial={{ y: -100}} animate={{ y: 0}}
-  transition={{duration:1.5, ease:"linear" }} className='mt-6  ring-pink-500 ring-2 hover:ring-4 rounded-md shadow-lg shadow-pink-500 hover:shadow-pink-500 hover:shadow-xl   mx-2'>
+  transition={{duration:1.5, ease:"linear" }} className='mt-6  ring-white ring-2 hover:ring-4 rounded-md     mx-2'>
         
           <Link href="https://blushhavenhomes.onrender.com"  className='text-2xl bg-black  rounded-lg mr-1'>
        
@@ -32,38 +32,38 @@ export default function project() {
          <Example/>
         
          </Link>
-<div className=' bg-clip-content p-5  space-y-2 rounded-md shadow-pink-400 shadow-lg '>
+<div className=' bg-clip-content p-5  space-y-2 rounded-md shadow-black shadow-xl '>
          
          <div className='flex justify-center gap-4  '>
-         <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
-          <SiMongodb className='text-pink-500 text-4xl'/></div>
-          <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
-          <SiExpress className='text-pink-500 text-4xl '/></div>
-          <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
-          <SiReact className='text-pink-500 text-4xl'/></div>
-          <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
-          <SiNodedotjs className='text-pink-500 text-4xl'/></div>
-          <div className='bg-white rounded-md shadow-pink-400 shadow-xl p-3'>
-          <SiFirebase className='text-pink-500 text-4xl'/></div>
+         <div className='bg-white rounded-md  p-3'>
+          <SiMongodb className='text-black text-4xl'/></div>
+          <div className='bg-white rounded-md  p-3'>
+          <SiExpress className='text-black text-4xl '/></div>
+          <div className='bg-white rounded-md  p-3'>
+          <SiReact className='text-black text-4xl'/></div>
+          <div className='bg-white rounded-md  p-3'>
+          <SiNodedotjs className='text-black text-4xl'/></div>
+          <div className='bg-white rounded-md   p-3'>
+          <SiFirebase className='text-black text-4xl'/></div>
          </div>
          </div>
          
          
         </motion.div>
         <motion.div initial={{ x: -100}} animate={{ x: 0}}
-  transition={{duration:3, ease:"linear" }} className='mt-6 ring-white  ring-2 hover:ring-4 rounded-md shadow-lg shadow-white hover:shadow-xl  hover:shadow-white mx-2'>
+  transition={{duration:3, ease:"linear" }} className='mt-6   ring-2 hover:ring-4 ring-lime-300 rounded-md shadow-lg shadow-lime-400 hover:shadow-xl   mx-2'>
           
          <div className=''> <Link href="https://blip-perceptron10100.vercel.app/"  className='text-2xl bg-black  rounded-lg mr-1'><Ex/></Link></div>
-         <div className=' bg-clip-content p-5  space-y-2 rounded-md shadow-sky-400 shadow-lg '>
+         <div className=' bg-clip-content p-5  space-y-2 rounded-md  shadow-lg '>
          <div className='flex justify-center gap-4  '>
-         <div className='bg-white rounded-md shadow-blue-500 shadow-xl p-3'>
-          <SiNextdotjs className='text-blue-950 text-4xl'/></div>
-          <div className='bg-white rounded-md shadow-blue-500 shadow-xl p-3'>
-          <SiFirebase className='text-blue-950 text-4xl '/></div>
-          <div className='bg-white rounded-md shadow-blue-500 shadow-xl p-3'>
-          <SiReact className='text-blue-950 text-4xl'/></div>
-          <div className='bg-white rounded-md shadow-blue-500 shadow-xl p-3'>
-          <SiNodedotjs className='text-blue-950 text-4xl'/></div>
+         <div className='bg-slate-800 rounded-md shadow-lime-300 shadow-xl p-3'>
+          <SiNextdotjs className='text-lime-300 text-4xl'/></div>
+          <div className='bg-slate-800 rounded-md shadow-lime-300 shadow-xl p-3'>
+          <SiFirebase className='text-lime-300 text-4xl '/></div>
+          <div className='bg-slate-800 rounded-md shadow-lime-300 shadow-xl p-3'>
+          <SiReact className='text-lime-300 text-4xl'/></div>
+          <div className='bg-slate-800 rounded-md shadow-lime-300 shadow-xl p-3'>
+          <SiNodedotjs className='text-lime-300 text-4xl'/></div>
          </div>
          </div>
          
@@ -113,8 +113,8 @@ export default function project() {
     <motion.div initial={{ x: 100}} animate={{ x: 0}}
   transition={{duration:4.5, ease:"linear" }} className='mt-6 mx-2 ring-green-300 ring-2 hover:ring-4 rounded-md  shadow-lg shadow-green-500 hover:shadow-xl  hover:shadow-green-500'>  
     <div className='flex justify-center'>
-<a href='https://astounding-kringle-914635.netlify.app/'></a></div><Starbucks/>
-
+<a href='https://astounding-kringle-914635.netlify.app/'></a></div>
+<Link href='https://astounding-kringle-914635.netlify.app/'  className="font-bold bg-amber-500"><Starbucks/></Link>
 <div className='flex justify-end'><Link href="https://github.com/perceptron10100sdas/starbucks" className='bg-white rounded-md shadow-white  shadow-xl p-3 mt-3'><SiGithub className='text-black text-4xl'/></Link></div>
 <div className='flex justify-center gap-4 p-5 '>
          <div className='bg-white rounded-md shadow-white shadow-xl p-3'>

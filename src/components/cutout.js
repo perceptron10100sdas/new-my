@@ -6,10 +6,10 @@ const Example = () => {
        
         <CutoutTextLoader
           height="450px"
-          background="pink"
+          background="white"
           // NOTE: Using GIFs for the background looks super cool :)
-          imgUrl="/estate.png"
-          heading="BlushhavenHom"
+          imgUrl="/parkside.png"
+          heading="ParkSide"
         />
          
       </div>
@@ -21,9 +21,9 @@ const Example = () => {
        
         <CutoutTextLoader
           height="450px"
-          background="white"
+          background="black"
           // NOTE: Using GIFs for the background looks super cool :)
-          imgUrl="/blip.png"
+          imgUrl="/blip1.png"
           heading="Blip"
           
         />
