@@ -70,7 +70,7 @@ export default function Home() {
       <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-slate-200 font-medium text-2xl md:text-5xl pointer-events-none">
       <motion.div initial={{ scale:0}} animate={{ scale: 1}}
   transition={{duration:6, ease:"easeInOut" }}  ><Image src='/iconimg.webp'
-       width="300"
+       width="200"
        height="100" className='ring-4 hover:ring-black rounded-full mx-10 mt-5 '/></motion.div>
       <h1 className='text-white font-thin'>This is</h1>
       <div>

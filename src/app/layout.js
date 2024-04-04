@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
         <div className='bg-black'>
        
         {children}
+        <h1 className='bg-white p-2 text-right text-4xl sm:text-6xl font-light border-l-2 border-black animate-typing'>Click to Navigate</h1>
         <Sidebar/>
        <Example/>
        <h3 className='text-white bg-slate-900'>Copyrights@perceptron10100sdas</h3>

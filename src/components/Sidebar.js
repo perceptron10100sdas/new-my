@@ -6,7 +6,7 @@ import { HoverImageLinks2 } from './Hoverlinks2'
 export default function Sidebar() {
   return (
    
-    <div className=' md:flex justify-evenly mx-1 py-3  transform sm:rotate-90 md:rotate-0'>
+    <div className=' md:flex justify-evenly mx-1 py-3 bg-black border-separate  border-slate-700  transform sm:rotate-90 md:rotate-0 '>
       <HoverImageLinks/>
     <HoverImageLinks1/>
     <HoverImageLinks2/>

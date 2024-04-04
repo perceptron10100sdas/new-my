@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Example = () => {
   return (
-    <div className="grid min-h-[150px] place-content-center bg-slate-900 p-4">
+    <div className="grid min-h-[150px] place-content-center bg-black p-4">
       <DrawOutlineButton ><Link href="/">Back to Home</Link></DrawOutlineButton>
      
     </div> 
