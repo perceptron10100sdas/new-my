@@ -50,14 +50,14 @@ function Image({ id }) {
       
       {id==1 && <motion.h2 style={{ y }} className="text-8xl mb-24 text-white bg-amber-500 p-2 rounded-2xl">IMDb</motion.h2> }
       {id==2 && <Link href="https://blushhavenhomes.onrender.com/" ><motion.h2 style={{ y }} className="text-8xl mb-24" >ParkSide </motion.h2></Link> }
-      {id==2 && <motion.p style={{ y }} className="">Real estate based platform  </motion.p> }
+      {id==2 && <motion.p style={{ y }} className="mt-2">Real estate based platform  </motion.p> }
       {id==3 && <motion.h2 style={{ y }} className=" font-extralight text-8xl mb-24 text-lime-300">Blip </motion.h2> }
-      {id==3 && <motion.p style={{ y }} className=" font-extralight text-sm  text-white">Real Time Social Media platform   </motion.p> }
+      {id==3 && <motion.p style={{ y }} className=" font-extralight text-sm  text-white mt-2">Real Time Social Media platform   </motion.p> }
       {id==4 && <motion.div style={{ y }} className="text-8xl mb-24 flex"><h2 className="text-blue-500">G</h2><h2 className="text-red-500">o</h2><h2 className="text-yellow-500">o</h2><h2 className="text-blue-500">g</h2><h2 className="text-green-500">l</h2><h2 className="text-red-500">e</h2></motion.div> }
-      {id==4 && <motion.p style={{ y }} className="">Clone powered by Google search API </motion.p> }
+      {id==4 && <motion.p style={{ y }} className="mt-2">Clone powered by Google search API </motion.p> }
       {id==5 && <motion.h2 style={{ y }} className="text-6xl sm:text-8xl  mb-24 ">Starbucks</motion.h2> }
-      {id==5 && <motion.p style={{ y }} className="">From where it all began  </motion.p> }
-      {id==1 && <motion.p style={{ y }} className="">Powered by Tmdb API </motion.p> }
+      {id==5 && <motion.p style={{ y }} className="mt-2">From where it all began  </motion.p> }
+      {id==1 && <motion.p style={{ y }} className="mt-2">Powered by Tmdb API </motion.p> }
     </section>
   );
 }
