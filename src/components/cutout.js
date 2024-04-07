@@ -89,7 +89,7 @@ const Example = () => {
     return (
       <div className="relative" style={{ height }}>
         <div
-          className="absolute inset-0 z-0"
+          className="absolute inset-0 z-0 rounded-2xl p-1"
           style={{
             backgroundImage: `url(${imgUrl})`,
             backgroundPosition: "center",
