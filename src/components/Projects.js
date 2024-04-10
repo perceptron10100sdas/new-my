@@ -55,7 +55,7 @@ function Image({ id }) {
       {id==3 && <motion.p style={{ y }} className=" font-extralight text-sm  text-white mt-4">Real Time Social Media platform   </motion.p> }
       {id==4 && <Link href="https://google-clone-lyart-gamma.vercel.app/" ><motion.div style={{ y }} className="text-8xl mb-24 flex"><h2 className="text-blue-500">G</h2><h2 className="text-red-500">o</h2><h2 className="text-yellow-500">o</h2><h2 className="text-blue-500">g</h2><h2 className="text-green-500">l</h2><h2 className="text-red-500">e</h2></motion.div></Link> }
       {id==4 && <motion.p style={{ y }} className="mt-4">Clone powered by Google search API </motion.p> }
-      {id==5 && <Link href="https://astounding-kringle-914635.netlify.app/" ><motion.h2 style={{ y }} className="text-6xl sm:text-8xl  mb-24 ">Starbucks</motion.h2></Link> }
+      {id==5 && <Link href="https://astounding-kringle-914635.netlify.app/" ><motion.h2 style={{ y }} className="text-6xl sm:text-8xl  mb-24 font-bold ">Starbucks</motion.h2></Link> }
       {id==5 && <motion.p style={{ y }} className="mt-4">From where it all began  </motion.p> }
       {id==1 && <motion.p style={{ y }} className="mt-4">Powered by Tmdb API </motion.p> }
     </section>
