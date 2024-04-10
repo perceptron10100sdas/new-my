@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const Example = () => {
   return (
-    <div className="grid place-content-center bg-gradient-to-tr from-black via-black to bg-purple-950 px-4 py-20 ">
+    <div className="grid place-content-center bg-black px-4 py-20 ">
       <div className="flex  space-x-5">
-      <h1 className="font-bold text-3xl text-white">Let's Connect</h1>
+      <h1 className="font-light text-3xl text-white ">Let's Connect</h1>
       <BarLoader /></div>
     </div>
   );
@@ -37,10 +37,10 @@ const BarLoader = () => {
       animate="animate"
       className="flex gap-1"
     >
-      <motion.div variants={variants} className="h-12 w-2 bg-white" />
-      <motion.div variants={variants} className="h-12 w-2 bg-white" />
-      <motion.div variants={variants} className="h-12 w-2 bg-white" />
-      <motion.div variants={variants} className="h-12 w-2 bg-white" />
+      <motion.div variants={variants} className="h-12 w-2 bg-slate-700" />
+      <motion.div variants={variants} className="h-12 w-2 bg-slate-600" />
+      <motion.div variants={variants} className="h-12 w-2 bg-slate-500" />
+      <motion.div variants={variants} className="h-12 w-2 bg-slate-200" />
       <motion.div variants={variants} className="h-12 w-2 bg-white" />
     </motion.div>
   );

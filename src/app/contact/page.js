@@ -10,6 +10,7 @@ import Card from '@/components/contacts'
 
 
 
+
 export default function contact() {
   const variants = {
     hidden: { opacity: 0 },
@@ -17,8 +18,8 @@ export default function contact() {
   }
   return (
     <PageWrapper>
-    
    
+    
 <Example/>
  
 

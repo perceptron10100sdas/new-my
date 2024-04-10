@@ -5,7 +5,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 export const HoverImageLinks1 = () => {
   return (
-    <section className="bg-neutral-950 p-4 md:p-8">
+    <section className="bg-black p-4 md:p-8">
       <div className="mx-auto max-w-5xl">
        
       <Link
