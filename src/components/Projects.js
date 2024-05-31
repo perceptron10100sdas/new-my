@@ -10,7 +10,10 @@ import {
 } from "framer-motion";
 import { Ex } from "./cutout";
 import { SiReact,SiNextdotjs,SiTailwindcss,SiNodedotjs,SiExpress, SiMongodb, SiFirebase, SiFramer } from "react-icons/si";
-import Link from 'next/link'
+
+
+
+
 
 function useParallax(value, distance) {
   // Clamp the value between 0 and 1 (assuming a value between 0 and 1 represents scroll progress)
@@ -48,14 +51,14 @@ function Image({ id }) {
         
           </div>
       
-      {id==1 && <Link href="https://imdb-perceptron10100.vercel.app/" ><motion.h2 style={{ y }} className="text-8xl mb-24 text-white bg-amber-500 p-2 rounded-2xl">IMDb</motion.h2></Link> }
-      {id==2 && <Link href="https://blushhavenhomes.onrender.com/" ><motion.h2 style={{ y }} className="text-8xl mb-24" >ParkSide </motion.h2></Link> }
+      {id==1 && <a href="https://imdb-perceptron10100.vercel.app/" ><motion.h2 style={{ y }} className="text-8xl mb-24 text-white bg-amber-500 p-2 rounded-2xl">IMDb</motion.h2></a> }
+      {id==2 && <a href="https://blushhavenhomes.onrender.com/" ><motion.h2 style={{ y }} className="text-8xl mb-24" >ParkSide </motion.h2></a> }
       {id==2 && <motion.p style={{ y }} className="mt-4">Real estate based platform  </motion.p> }
-      {id==3 && <Link href="https://blip-perceptron10100.vercel.app/" ><motion.h2 style={{ y }} className=" font-extralight text-8xl mb-24 text-lime-300">Blip </motion.h2></Link> }
+      {id==3 && <a href="https://blip-perceptron10100.vercel.app/" ><motion.h2 style={{ y }} className=" font-extralight text-8xl mb-24 text-lime-300">Blip </motion.h2></a> }
       {id==3 && <motion.p style={{ y }} className=" font-extralight text-sm  text-white mt-4">Real Time Social Media platform   </motion.p> }
-      {id==4 && <Link href="https://google-clone-lyart-gamma.vercel.app/" ><motion.div style={{ y }} className="text-8xl mb-24 flex"><h2 className="text-blue-500">G</h2><h2 className="text-red-500">o</h2><h2 className="text-yellow-500">o</h2><h2 className="text-blue-500">g</h2><h2 className="text-green-500">l</h2><h2 className="text-red-500">e</h2></motion.div></Link> }
+      {id==4 && <a href="https://google-clone-lyart-gamma.vercel.app/" ><motion.div style={{ y }} className="text-8xl mb-24 flex"><h2 className="text-blue-500">G</h2><h2 className="text-red-500">o</h2><h2 className="text-yellow-500">o</h2><h2 className="text-blue-500">g</h2><h2 className="text-green-500">l</h2><h2 className="text-red-500">e</h2></motion.div></a> }
       {id==4 && <motion.p style={{ y }} className="mt-4">Clone powered by Google search API </motion.p> }
-      {id==5 && <Link href="https://astounding-kringle-914635.netlify.app/" ><motion.h2 style={{ y }} className="text-6xl sm:text-8xl  mb-24 font-bold ">Starbucks</motion.h2></Link> }
+      {id==5 && <a href="https://astounding-kringle-914635.netlify.app/" ><motion.h2 style={{ y }} className="text-6xl sm:text-8xl  mb-24 font-bold ">Starbucks</motion.h2></a> }
       {id==5 && <motion.p style={{ y }} className="mt-4">From where it all began  </motion.p> }
       {id==1 && <motion.p style={{ y }} className="mt-4">Powered by Tmdb API </motion.p> }
     </section>

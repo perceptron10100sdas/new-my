@@ -1,11 +1,9 @@
-"use client"
-import { ScreenFitText } from '@/components/First'
-import React from 'react'
 import { ExpandCircleDown, KeyboardArrowDown, SwipeDown, SwipeDownAltOutlined } from '@mui/icons-material'
+import React from 'react'
+
 export default function page() {
   return (
-    <div>
-   <div className='h-screen bg-gray-300 rounded-3xl'>
+    <div className='h-screen bg-gray-300 rounded-3xl'>
       <div  className='text-black flex justify-between  p-4  '>
         <div  className=' '>
         <h1 className=' font-extralight uppercase text-[12px] sm:text-xl'>Sambhav Das</h1> <h1 className=' italic text-[8px] sm:text-sm'>Full Stack Web developer</h1></div>
@@ -20,8 +18,6 @@ export default function page() {
    <div className='absolute bottom-6 left-3 flex text-[8px] '>
     <KeyboardArrowDown className='text-black sm:text-3xl mt-2 animate-bounce  ring-1  ring-black rounded-full '/>
     <h1 className='uppercase sm:text-xl mt-1 mx-2 font-extralight'>Scroll to explore </h1></div>
-    </div>
-  
     </div>
   )
 }
