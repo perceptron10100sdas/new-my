@@ -1,7 +1,8 @@
 "use client"
 import { ScreenFitText } from '@/components/First'
+import { KeyboardArrowDown } from '@mui/icons-material'
 import React from 'react'
-import { ExpandCircleDown, KeyboardArrowDown, SwipeDown, SwipeDownAltOutlined } from '@mui/icons-material'
+
 export default function page() {
   return (
     <div>
