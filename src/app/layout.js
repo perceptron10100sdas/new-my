@@ -6,9 +6,9 @@ import { Inter } from 'next/font/google'
 import Example from '@/components/Drawoutline'
 import Sidebar from '@/components/Sidebar'
 import { SwipeDown } from '@mui/icons-material'
+import { Analytics } from "@vercel/analytics/react"
 
-
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 
@@ -28,8 +28,8 @@ export default function RootLayout({ children }) {
         <div className='bg-black'>
        
         {children}
-       
-        
+       <Analytics/>
+        <SpeedInsights/>
         <Sidebar/>
        <Example/>
        <h3 className='text-white bg-slate-900'>Copyrights@perceptron10100sdas</h3>
